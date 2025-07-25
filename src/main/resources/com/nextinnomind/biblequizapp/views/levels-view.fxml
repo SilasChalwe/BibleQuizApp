@@ -2,61 +2,67 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
 
-<BorderPane xmlns="http://javafx.com/javafx/17"
-            xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.nextinnomind.biblequizapp.controller.LevelsController"
-            style="-fx-background-color: #1E144F;">
+<StackPane xmlns="http://javafx.com/javafx/17"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.nextinnomind.biblequizapp.controller.LevelsViewController"
+           styleClass="levels-root">
 
-    <!-- HEADER -->
-    <top>
-        <VBox style="-fx-background-color: #2A1A5E;"
-              spacing="10">
-            <!-- Safe area padding on top -->
-            <Region prefHeight="20"/>
+    <!-- Main vertical layout -->
+    <VBox alignment="TOP_CENTER" spacing="10" VBox.vgrow="ALWAYS">
 
+        <!-- HEADER -->
+        <VBox styleClass="levels-header" alignment="CENTER_LEFT" spacing="10">
             <padding>
-                <Insets top="10" right="20" bottom="10" left="20"/>
+                <Insets top="20" right="20" bottom="10" left="20"/>
             </padding>
-
             <HBox alignment="CENTER_LEFT" spacing="15">
-                <!-- Back Button -->
-                <Button fx:id="backButton" text="← Back"
-                        style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 14;"/>
-                <!-- Title -->
-                <Label text="Levels" textFill="WHITE" style="-fx-font-family: 'Palatino Linotype'; -fx-font-size: 28; -fx-font-weight: bold;"/>
+                <Button fx:id="backButton" text="← Back" styleClass="back-button"/>
+                <Label text="Levels" styleClass="levels-title"/>
+                <Region HBox.hgrow="ALWAYS"/>
             </HBox>
         </VBox>
-    </top>
 
-    <!-- BODY -->
-    <center>
-        <ScrollPane fitToWidth="true" style="-fx-background-color: transparent;"
-                    prefHeight="400">
-            <padding>
-                <Insets top="20" right="20" bottom="20" left="20"/>
-            </padding>
-            <content>
-                <FlowPane fx:id="levelContainer" hgap="15" vgap="15" alignment="CENTER" prefWrapLength="350"/>
-            </content>
+        <!-- SCROLLABLE LEVEL LIST -->
+        <ScrollPane fitToWidth="true"
+                    fitToHeight="true"
+                    VBox.vgrow="ALWAYS"
+                    styleClass="levels-scrollpane"
+                    pannable="true"
+                    hbarPolicy="NEVER">
+            <FlowPane fx:id="levelContainer"
+                      hgap="15"
+                      vgap="15"
+                      alignment="CENTER"
+                      prefWrapLength="600">
+                <padding>
+                    <Insets top="20" right="20" bottom="20" left="20"/>
+                </padding>
+            </FlowPane>
         </ScrollPane>
-    </center>
 
-    <!-- FOOTER -->
-    <bottom>
-        <HBox style="-fx-background-color: #2A1A5E;"
-              alignment="CENTER" spacing="50">
-            <padding>
-                <Insets top="10" right="20" bottom="10" left="20"/>
-            </padding>
-            <Button text="Home" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
-            <Button text="Settings" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
-            <Button text="Profile" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
-        </HBox>
-    </bottom>
+    </VBox>
 
-</BorderPane>
+    <!-- Bottom nav - fixed to bottom, small height -->
+    <HBox alignment="CENTER"
+          spacing="40"
+          styleClass="bottom-nav"
+          StackPane.alignment="BOTTOM_CENTER"
+          maxHeight="60"
+          prefHeight="60">
+        <padding>
+            <Insets top="10" right="10" bottom="10" left="10"/>
+        </padding>
+        <Button styleClass="nav-button"/>
+        <Button text="Settings" styleClass="nav-button"/>
+        <Button styleClass="nav-button"/>
+
+    </HBox>
+
+    <stylesheets>
+        <URL value="@../static/style.css"/>
+    </stylesheets>
+</StackPane>
+

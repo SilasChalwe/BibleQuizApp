@@ -36,3 +36,21 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+
+
+# Distribution builds
+bible-quiz-distribution/
+bible-quiz-distribution.zip
+# Sounds & large binaries (if generated dynamically)
+*.wav
+*.mp3
+# Backup & temp files
+*.bak
+*.tmp
+
+# Java
+*.class
+# Maven
+/target/
+/dependency-reduced-pom.xml

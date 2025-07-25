@@ -1,0 +1,127 @@
+
+/* Background Colors */
+.bg-deep-purple {
+    -fx-background-color: #1E144F;
+}
+
+.bg-purple-gradient {
+    -fx-background-color: linear-gradient(to bottom, #6A11CB, #2575FC); /* Violet to Indigo */
+}
+
+.bg-indigo {
+    -fx-background-color: #2575FC;
+}
+
+.bg-highlight-green {
+    -fx-background-color: #3DF6A3;
+}
+
+.bg-orange {
+    -fx-background-color: #FF9A3C;
+}
+
+.bg-hot-pink {
+    -fx-background-color: #FC4CAA;
+}
+
+.bg-yellow {
+    -fx-background-color: #FFCC00;
+}
+
+.bg-button-purple {
+    -fx-background-color: #7F3DFF;
+}
+
+.bg-light-gray {
+    -fx-background-color: #E3E3E3;
+}
+
+/* Accent Dots */
+.accent-red {
+    -fx-background-color: #FD3D3D;
+}
+.accent-blue {
+    -fx-background-color: #34B6FF;
+}
+.accent-green {
+    -fx-background-color: #32D48E;
+}
+
+/* === Text Colors === */
+.text-light {
+    -fx-text-fill: #E3E3E3;
+}
+
+.text-dark {
+    -fx-text-fill: #1E144F;
+}
+
+.text-purple {
+    -fx-text-fill: #6A11CB;
+}
+
+/* === Circle Fill (for shapes) === */
+.fill-deep-purple {
+    -fx-fill: #1E144F;
+}
+
+.fill-violet {
+    -fx-fill: #6A11CB;
+}
+
+.fill-indigo {
+    -fx-fill: #2575FC;
+}
+
+.fill-green {
+    -fx-fill: #3DF6A3;
+}
+
+.fill-orange {
+    -fx-fill: #FF9A3C;
+}
+
+.fill-pink {
+    -fx-fill: #FC4CAA;
+}
+
+.fill-yellow {
+    -fx-fill: #FFCC00;
+}
+
+.fill-button-purple {
+    -fx-fill: #7F3DFF;
+}
+
+.fill-light-gray {
+    -fx-fill: #E3E3E3;
+}
+
+.fill-red {
+    -fx-fill: #FD3D3D;
+}
+
+.fill-blue {
+    -fx-fill: #34B6FF;
+}
+
+.fill-green-accent {
+    -fx-fill: #32D48E;
+}
+
+.menu-button {
+    -fx-background-color: linear-gradient(to bottom, #D4AF37 0%, #A67C00 100%);
+    -fx-text-fill: #1E144F;
+    -fx-background-radius: 30;
+    -fx-padding: 12 40;
+    -fx-cursor: hand;
+}
+
+.menu-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #FFD700 0%, #C9A227 100%);
+    -fx-effect: dropshadow(gaussian, rgba(255,215,0,0.5), 15, 0.5, 0, 0);
+}
+
+.menu-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #A67C00 0%, #D4AF37 100%);
+}

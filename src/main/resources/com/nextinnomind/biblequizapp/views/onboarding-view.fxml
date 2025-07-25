@@ -5,110 +5,74 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.paint.LinearGradient?>
-<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.effect.*?>
-<?import java.net.URL?>
 
 <StackPane xmlns="http://javafx.com/javafx/17"
            xmlns:fx="http://javafx.com/fxml/1"
            fx:controller="com.nextinnomind.biblequizapp.HelloController"
-           style="-fx-background-color: #1E144F;">
+           styleClass="root-pane"
+           stylesheets="@../static/style.css">
 
-    <!-- Enhanced Background with Gradient Overlay -->
+    <!-- Background Image -->
     <ImageView fitWidth="800" fitHeight="600" preserveRatio="true" opacity="0.25" mouseTransparent="true">
-        <image>
-            <Image url="@../assets/the-cross.jpeg"/>
-        </image>
+        <Image url="@../assets/the-cross.jpeg"/>
     </ImageView>
 
+    <!-- Gradient Overlay -->
     <Rectangle width="800" height="600" fill="linear-gradient(to bottom, rgba(30, 20, 79, 0.85) 0%, rgba(15, 10, 40, 0.9) 100%)"/>
 
-    <!-- Main Content Container -->
-    <VBox alignment="CENTER" spacing="35" style="-fx-background-color: transparent;">
+    <!-- Main UI -->
+    <VBox alignment="CENTER" spacing="35" styleClass="main-container">
         <padding>
             <Insets top="60" right="40" bottom="60" left="40"/>
         </padding>
 
-        <!-- Logo with Elegant Border Effect -->
+        <!-- Logo -->
         <StackPane>
-            <Circle radius="60" fill="radial-gradient(center 50% 50%, radius 60%, #FFFFFF, #E6E6FA)"
-                    strokeType="INSIDE" stroke="#D4AF37" strokeWidth="2">
-                <effect>
-                    <InnerShadow color="rgba(0,0,0,0.2)" radius="8" choke="0.5"/>
-                </effect>
-            </Circle>
-            <ImageView fitWidth="90" fitHeight="90" preserveRatio="true">
+            <Circle radius="60" styleClass="logo-circle"/>
+            <ImageView fitWidth="90" fitHeight="90" preserveRatio="true" styleClass="logo-image">
                 <clip>
                     <Circle centerX="45" centerY="45" radius="45"/>
                 </clip>
-                <image>
-                    <Image url="@../assets/praying-hand-logo.png"/>
-                </image>
-                <effect>
-                    <DropShadow color="rgba(0,0,0,0.3)" radius="10" offsetX="2" offsetY="2"/>
-                </effect>
+                <Image url="@../assets/praying-hand-logo.png"/>
             </ImageView>
         </StackPane>
 
-        <!-- Header Section with Improved Typography -->
+        <!-- App Title -->
         <VBox alignment="CENTER" spacing="15">
             <Label text="Bible Quiz" styleClass="title-text">
                 <font>
                     <Font name="Palatino Linotype" size="42"/>
                 </font>
-                <textFill>
-                    <LinearGradient startX="0.0" startY="0.0" endX="1.0" endY="1.0" cycleMethod="REFLECT">
-                        <stops>
-                            <Stop offset="0.0" color="#FFD700"/>
-                            <Stop offset="1.0" color="#FFFFFF"/>
-                        </stops>
-                    </LinearGradient>
-                </textFill>
-                <effect>
-                    <DropShadow color="#000000B3" radius="8" offsetX="3" offsetY="3"/>
-                </effect>
             </Label>
 
             <VBox alignment="CENTER" spacing="8">
-                <Label text="Let's Play!" styleClass="subtitle-text">
+                <Label text="Let's Play!" styleClass="subtitle-text-letsplay">
                     <font>
                         <Font name="Segoe UI Semibold" size="18"/>
                     </font>
-                    <textFill>
-                        <LinearGradient cycleMethod="REFLECT" startX="0.0" startY="0.0" endX="1.0" endY="0.0">
-                            <stops>
-                                <Stop offset="0.0" color="#E6E6FA"/>
-                                <Stop offset="1.0" color="#FFFFFF"/>
-                            </stops>
-                        </LinearGradient>
-                    </textFill>
                 </Label>
 
-                <Label text="Play now and Level up" styleClass="subtitle-text">
+                <Label text="Play now and Level up" styleClass="subtitle-text-playnow">
                     <font>
                         <Font name="Segoe UI Light" size="16"/>
                     </font>
-                    <textFill>LIGHTGOLDENRODYELLOW</textFill>
                 </Label>
             </VBox>
         </VBox>
 
+        <!-- Separator -->
+        <Rectangle width="800" height="60" styleClass="separator-rectangle"/>
+
+        <!-- Play Button -->
         <Button text="Play Now" fx:id="playButton" onAction="#handlePlayButton" styleClass="menu-button">
             <font>
                 <Font name="Segoe UI Bold" size="18"/>
             </font>
-            <effect>
-                <DropShadow color="rgba(0,0,0,0.25)" radius="8" offsetX="3" offsetY="3"/>
-            </effect>
         </Button>
-
-
-        <stylesheets>
-            <URL value="@../static/style.css"/>
-        </stylesheets>
     </VBox>
+
 </StackPane>
