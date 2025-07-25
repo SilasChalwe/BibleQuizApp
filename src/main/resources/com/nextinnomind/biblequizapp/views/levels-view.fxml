@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.nextinnomind.biblequizapp.controller.LevelsController"
+            style="-fx-background-color: #1E144F;">
+
+    <!-- HEADER -->
+    <top>
+        <VBox style="-fx-background-color: #2A1A5E;"
+              spacing="10">
+            <!-- Safe area padding on top -->
+            <Region prefHeight="20"/>
+
+            <padding>
+                <Insets top="10" right="20" bottom="10" left="20"/>
+            </padding>
+
+            <HBox alignment="CENTER_LEFT" spacing="15">
+                <!-- Back Button -->
+                <Button fx:id="backButton" text="← Back"
+                        style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 14;"/>
+                <!-- Title -->
+                <Label text="Levels" textFill="WHITE" style="-fx-font-family: 'Palatino Linotype'; -fx-font-size: 28; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- BODY -->
+    <center>
+        <ScrollPane fitToWidth="true" style="-fx-background-color: transparent;"
+                    prefHeight="400">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            <content>
+                <FlowPane fx:id="levelContainer" hgap="15" vgap="15" alignment="CENTER" prefWrapLength="350"/>
+            </content>
+        </ScrollPane>
+    </center>
+
+    <!-- FOOTER -->
+    <bottom>
+        <HBox style="-fx-background-color: #2A1A5E;"
+              alignment="CENTER" spacing="50">
+            <padding>
+                <Insets top="10" right="20" bottom="10" left="20"/>
+            </padding>
+            <Button text="Home" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
+            <Button text="Settings" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
+            <Button text="Profile" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

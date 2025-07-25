@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import java.net.URL?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.nextinnomind.biblequizapp.controller.QuizViewController" prefWidth="400" prefHeight="600" styleClass="root-pane">
+
+    <!-- Top bar  -->
+    <top>
+        <HBox spacing="15" alignment="CENTER_LEFT" styleClass="quiz-top-bar">
+            <Button fx:id="backButton" text="← Back" onAction="#handleBack" styleClass="quiz-back-btn"/>
+
+            <!-- Level Display -->
+            <HBox spacing="6" alignment="CENTER"><Label text="Level" styleClass="quiz-level-info" />
+                <Label fx:id="levelName" text="1" styleClass="quiz-level-name" />
+            </HBox>
+
+            <Region fx:id="spacer" HBox.hgrow="ALWAYS"/>
+
+            <!-- Timer  -->
+            <HBox alignment="CENTER_RIGHT">
+                <StackPane fx:id="timerCirclePane" prefWidth="50" prefHeight="50">
+                    <Circle fx:id="timerCircleBg" radius="20" styleClass="quiz-timer-bg"/>
+                    <Circle fx:id="timerCircleFg" radius="20" styleClass="quiz-timer-fg"/>
+                    <Label fx:id="timerLabel" text="30" styleClass="quiz-timer-label" />
+                </StackPane>
+            </HBox>
+        </HBox>
+    </top>
+
+    <!--  question card and options -->
+    <center>
+        <VBox alignment="TOP_CENTER" spacing="15" style="-fx-padding: 15;" VBox.vgrow="ALWAYS">
+
+            <!--  Question  -->
+            <VBox maxWidth="Infinity" VBox.vgrow="ALWAYS">
+                <StackPane styleClass="question-card-glass">
+
+                    <VBox alignment="CENTER" spacing="8" VBox.vgrow="ALWAYS">
+                        <HBox alignment="CENTER" spacing="4">
+                            <Circle radius="2.5" styleClass="progress-dot"/>
+                            <Circle radius="2.5" styleClass="progress-dot"/>
+                            <Circle radius="2.5" styleClass="progress-dot"/>
+                        </HBox>
+                        <VBox alignment="CENTER" VBox.vgrow="ALWAYS">
+                            <Label fx:id="questionLabel" wrapText="true"
+                                   text="Question will appear here"
+                                   styleClass="question-text-glass"
+                                   maxWidth="Infinity"/>
+                        </VBox>
+                    </VBox>
+                </StackPane>
+            </VBox>
+
+            <VBox spacing="8" alignment="CENTER" maxWidth="340" VBox.vgrow="NEVER">
+                <!-- Option A -->
+                <StackPane>
+                    <Rectangle arcWidth="15" arcHeight="15"
+                               styleClass="choice-option-rect"
+                               width="320" height="42"/>
+                    <Button fx:id="choiceA" text="A. Choice A" styleClass="choice-option-btn"/>
+                </StackPane>
+
+                <!-- Option B -->
+                <StackPane>
+                    <Rectangle arcWidth="15" arcHeight="15"
+                               styleClass="choice-option-rect"
+                               width="320" height="42"/>
+                    <Button fx:id="choiceB" text="B. Choice B" styleClass="choice-option-btn"/>
+                </StackPane>
+
+                <!-- Option C -->
+                <StackPane>
+                    <Rectangle arcWidth="15" arcHeight="15"
+                               styleClass="choice-option-rect"
+                               width="320" height="42"/>
+                    <Button fx:id="choiceC" text="C. Choice C" styleClass="choice-option-btn"/>
+                </StackPane>
+
+                <!-- Option D -->
+                <StackPane>
+                    <Rectangle arcWidth="15" arcHeight="15"
+                               styleClass="choice-option-rect"
+                               width="320" height="42"/>
+                    <Button fx:id="choiceD" text="D. Choice D" styleClass="choice-option-btn"/>
+                </StackPane>
+            </VBox>
+        </VBox>
+    </center>
+
+    <!-- question tracker -->
+    <bottom>
+        <HBox alignment="CENTER" styleClass="quiz-bottom-bar">
+            <!-- Progress dots -->
+            <HBox spacing="4" alignment="CENTER">
+                <Circle radius="3" styleClass="progress-dot"/>
+                <Rectangle width="30" height="1.5" styleClass="progress-line" arcWidth="1.5" arcHeight="1.5"/>
+                <Label fx:id="questionNumberLabel"
+                       text="Question 1 of 15"
+                       styleClass="question-progress-label" />
+                <Rectangle width="30" height="1.5" styleClass="progress-line" arcWidth="1.5" arcHeight="1.5"/>
+                <Circle radius="3" styleClass="progress-dot"/>
+            </HBox>
+        </HBox>
+    </bottom>
+
+    <stylesheets>
+        <URL value="@../static/style.css"/>
+    </stylesheets>
+</BorderPane>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.*?>-->
+<!--<?import javafx.scene.shape.*?>-->
+
+<!--<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.nextinnomind.biblequizapp.controller.QuizViewController" prefWidth="400" prefHeight="600" styleClass="root-pane" stylesheets="@../static/style.css">-->
+
+<!--    &lt;!&ndash; Top bar with back button, level, and timer &ndash;&gt;-->
+<!--    <top>-->
+<!--        <HBox spacing="15" alignment="CENTER_LEFT" style="-fx-background-color: rgba(255,255,255,0.1); -fx-padding: 10 15; -fx-background-radius: 0 0 20 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 2);">-->
+<!--            &lt;!&ndash; Back Button &ndash;&gt;-->
+<!--            <Button fx:id="backButton"-->
+<!--                    text="← Back"-->
+<!--                    onAction="#handleBack"-->
+<!--                    style="-fx-background-color: rgba(255,255,255,0.2); -fx-text-fill: white; -fx-font-size: 12px; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 6 12; -fx-border-color: rgba(255,255,255,0.3); -fx-border-radius: 20; -fx-border-width: 1;"/>-->
+
+<!--            &lt;!&ndash; Level Display &ndash;&gt;-->
+<!--            <HBox spacing="6" alignment="CENTER">-->
+<!--                <Label text="Level"-->
+<!--                       style="-fx-text-fill: rgba(255,255,255,0.9); -fx-font-size: 14px; -fx-font-family: 'Segoe UI', sans-serif; -fx-font-weight: 500;" />-->
+<!--                <Label fx:id="levelName"-->
+<!--                       text="1"-->
+<!--                       style="-fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold; -fx-background-color: rgba(255,255,255,0.2); -fx-background-radius: 15; -fx-padding: 3 10;" />-->
+<!--            </HBox>-->
+
+<!--            <Region fx:id="spacer" HBox.hgrow="ALWAYS"/>-->
+
+<!--            &lt;!&ndash; Timer in top-right corner &ndash;&gt;-->
+<!--            <HBox alignment="CENTER_RIGHT">-->
+<!--                <StackPane fx:id="timerCirclePane" prefWidth="50" prefHeight="50">-->
+<!--                    <Circle fx:id="timerCircleBg" radius="20" stroke="rgba(255,255,255,0.3)" strokeWidth="3" fill="transparent"/>-->
+<!--                    <Circle fx:id="timerCircleFg" radius="20" stroke="#FF6B6B" strokeWidth="3" fill="transparent" strokeDashArray="125.66" strokeLineCap="round"/>-->
+<!--                    <Label fx:id="timerLabel" text="30" style="-fx-text-fill: white; -fx-font-size: 12px; -fx-font-weight: bold;" />-->
+<!--                </StackPane>-->
+<!--            </HBox>-->
+<!--        </HBox>-->
+<!--    </top>-->
+
+<!--    &lt;!&ndash; Center content: Responsive question card and options &ndash;&gt;-->
+<!--    <center>-->
+<!--        <VBox alignment="TOP_CENTER" spacing="15" style="-fx-padding: 15;" VBox.vgrow="ALWAYS">-->
+
+<!--            &lt;!&ndash; Truly Adaptive Question Card &ndash;&gt;-->
+<!--            <VBox maxWidth="Infinity" VBox.vgrow="ALWAYS">-->
+<!--                &lt;!&ndash; Glass background that grows/shrinks with content &ndash;&gt;-->
+<!--                <StackPane style="-fx-background-color: rgba(255,255,255,0.15); -fx-background-radius: 20; -fx-border-color: rgba(255,255,255,0.2); -fx-border-radius: 20; -fx-border-width: 1.5; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 15, 0, 0, 5); -fx-padding: 15;">-->
+
+<!--                    <VBox alignment="CENTER" spacing="8" VBox.vgrow="ALWAYS">-->
+<!--                        &lt;!&ndash; Question number indicator &ndash;&gt;-->
+<!--                        <HBox alignment="CENTER" spacing="4">-->
+<!--                            <Circle radius="2.5" fill="rgba(255,255,255,0.8)"/>-->
+<!--                            <Circle radius="2.5" fill="rgba(255,255,255,0.8)"/>-->
+<!--                            <Circle radius="2.5" fill="rgba(255,255,255,0.8)"/>-->
+<!--                        </HBox>-->
+
+<!--                        &lt;!&ndash; Adaptive question text - no fixed height, grows with content &ndash;&gt;-->
+<!--                        <VBox alignment="CENTER" VBox.vgrow="ALWAYS">-->
+<!--                            <Label fx:id="questionLabel" wrapText="true"-->
+<!--                                   text="Question will appear here"-->
+<!--                                   style="-fx-text-fill: #ffffff; -fx-font-size: 15px; -fx-font-weight: 600; -fx-line-spacing: 6px; -fx-font-family: 'Segoe UI', sans-serif; -fx-text-alignment: center; -fx-alignment: center;"-->
+<!--                                   maxWidth="Infinity"/>-->
+<!--                        </VBox>-->
+<!--                    </VBox>-->
+<!--                </StackPane>-->
+<!--            </VBox>-->
+
+<!--            &lt;!&ndash; Compact Answer Options that adjust to remaining space &ndash;&gt;-->
+<!--            <VBox spacing="8" alignment="CENTER" maxWidth="340" VBox.vgrow="NEVER">-->
+<!--                &lt;!&ndash; Option A &ndash;&gt;-->
+<!--                <StackPane>-->
+<!--                    <Rectangle arcWidth="15" arcHeight="15" fill="rgba(255,255,255,0.95)"-->
+<!--                               stroke="rgba(37,117,252,0.3)" strokeWidth="1.5"-->
+<!--                               style="-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);"-->
+<!--                               width="320" height="42"/>-->
+<!--                    <Button fx:id="choiceA" text="A. Choice A"-->
+<!--                            style="-fx-background-color: transparent; -fx-text-fill: #2C3E50; -fx-font-size: 13px; -fx-font-weight: 600; -fx-padding: 8 15; -fx-pref-width: 320; -fx-pref-height: 42; -fx-alignment: CENTER_LEFT; -fx-cursor: hand;"/>-->
+<!--                </StackPane>-->
+
+<!--                &lt;!&ndash; Option B &ndash;&gt;-->
+<!--                <StackPane>-->
+<!--                    <Rectangle arcWidth="15" arcHeight="15" fill="rgba(255,255,255,0.95)"-->
+<!--                               stroke="rgba(37,117,252,0.3)" strokeWidth="1.5"-->
+<!--                               style="-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);"-->
+<!--                               width="320" height="42"/>-->
+<!--                    <Button fx:id="choiceB" text="B. Choice B"-->
+<!--                            style="-fx-background-color: transparent; -fx-text-fill: #2C3E50; -fx-font-size: 13px; -fx-font-weight: 600; -fx-padding: 8 15; -fx-pref-width: 320; -fx-pref-height: 42; -fx-alignment: CENTER_LEFT; -fx-cursor: hand;"/>-->
+<!--                </StackPane>-->
+
+<!--                &lt;!&ndash; Option C &ndash;&gt;-->
+<!--                <StackPane>-->
+<!--                    <Rectangle arcWidth="15" arcHeight="15" fill="rgba(255,255,255,0.95)"-->
+<!--                               stroke="rgba(37,117,252,0.3)" strokeWidth="1.5"-->
+<!--                               style="-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);"-->
+<!--                               width="320" height="42"/>-->
+<!--                    <Button fx:id="choiceC" text="C. Choice C"-->
+<!--                            style="-fx-background-color: transparent; -fx-text-fill: #2C3E50; -fx-font-size: 13px; -fx-font-weight: 600; -fx-padding: 8 15; -fx-pref-width: 320; -fx-pref-height: 42; -fx-alignment: CENTER_LEFT; -fx-cursor: hand;"/>-->
+<!--                </StackPane>-->
+
+<!--                &lt;!&ndash; Option D &ndash;&gt;-->
+<!--                <StackPane>-->
+<!--                    <Rectangle arcWidth="15" arcHeight="15" fill="rgba(255,255,255,0.95)"-->
+<!--                               stroke="rgba(37,117,252,0.3)" strokeWidth="1.5"-->
+<!--                               style="-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);"-->
+<!--                               width="320" height="42"/>-->
+<!--                    <Button fx:id="choiceD" text="D. Choice D"-->
+<!--                            style="-fx-background-color: transparent; -fx-text-fill: #2C3E50; -fx-font-size: 13px; -fx-font-weight: 600; -fx-padding: 8 15; -fx-pref-width: 320; -fx-pref-height: 42; -fx-alignment: CENTER_LEFT; -fx-cursor: hand;"/>-->
+<!--                </StackPane>-->
+<!--            </VBox>-->
+<!--        </VBox>-->
+<!--    </center>-->
+
+<!--    &lt;!&ndash; Compact Bottom question tracker &ndash;&gt;-->
+<!--    <bottom>-->
+<!--        <HBox alignment="CENTER" style="-fx-background-color: rgba(255,255,255,0.1); -fx-padding: 10; -fx-background-radius: 20 20 0 0;">-->
+<!--            &lt;!&ndash; Progress dots &ndash;&gt;-->
+<!--            <HBox spacing="4" alignment="CENTER">-->
+<!--                <Circle radius="3" fill="rgba(255,255,255,0.6)"/>-->
+<!--                <Rectangle width="30" height="1.5" fill="rgba(255,255,255,0.4)" arcWidth="1.5" arcHeight="1.5"/>-->
+<!--                <Label fx:id="questionNumberLabel"-->
+<!--                       text="Question 1 of 15"-->
+<!--                       style="-fx-text-fill: rgba(255,255,255,0.9); -fx-font-size: 12px; -fx-font-weight: 600; -fx-padding: 0 8;" />-->
+<!--                <Rectangle width="30" height="1.5" fill="rgba(255,255,255,0.4)" arcWidth="1.5" arcHeight="1.5"/>-->
+<!--                <Circle radius="3" fill="rgba(255,255,255,0.6)"/>-->
+<!--            </HBox>-->
+<!--        </HBox>-->
+<!--    </bottom>-->
+<!--</BorderPane>-->
