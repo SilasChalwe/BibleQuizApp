@@ -5,10 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import java.net.URL?>
 
-<StackPane xmlns="http://javafx.com/javafx/17"
-           xmlns:fx="http://javafx.com/fxml/1"
-           fx:controller="com.nextinnomind.biblequizapp.controller.LevelsViewController"
-           styleClass="levels-root">
+<StackPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nextinnomind.biblequizapp.controller.LevelsViewController" styleClass="levels-root" stylesheets="@../static/style.css">
 
     <!-- Main vertical layout -->
     <VBox alignment="TOP_CENTER" spacing="10" VBox.vgrow="ALWAYS">
@@ -26,17 +23,8 @@
         </VBox>
 
         <!-- SCROLLABLE LEVEL LIST -->
-        <ScrollPane fitToWidth="true"
-                    fitToHeight="true"
-                    VBox.vgrow="ALWAYS"
-                    styleClass="levels-scrollpane"
-                    pannable="true"
-                    hbarPolicy="NEVER">
-            <FlowPane fx:id="levelContainer"
-                      hgap="15"
-                      vgap="15"
-                      alignment="CENTER"
-                      prefWrapLength="600">
+        <ScrollPane fitToWidth="true" fitToHeight="true" VBox.vgrow="ALWAYS" styleClass="levels-scrollpane" pannable="true" hbarPolicy="NEVER">
+            <FlowPane fx:id="levelContainer" hgap="15" vgap="15" alignment="CENTER" prefWrapLength="600">
                 <padding>
                     <Insets top="20" right="20" bottom="20" left="20"/>
                 </padding>
@@ -46,12 +34,7 @@
     </VBox>
 
     <!-- Bottom nav - fixed to bottom, small height -->
-    <HBox alignment="CENTER"
-          spacing="40"
-          styleClass="bottom-nav"
-          StackPane.alignment="BOTTOM_CENTER"
-          maxHeight="60"
-          prefHeight="60">
+    <HBox alignment="CENTER" spacing="40" styleClass="bottom-nav" StackPane.alignment="BOTTOM_CENTER" maxHeight="60" prefHeight="60">
         <padding>
             <Insets top="10" right="10" bottom="10" left="10"/>
         </padding>
@@ -61,8 +44,8 @@
 
     </HBox>
 
-    <stylesheets>
-        <URL value="@../static/style.css"/>
-    </stylesheets>
+<!--    <stylesheets>-->
+<!--        <URL value="@../static/style.css"/>-->
+<!--    </stylesheets>-->
 </StackPane>
 

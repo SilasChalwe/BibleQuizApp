@@ -50,7 +50,7 @@ public class ScoreViewController {
         setupEventHandlers();
         loadScoreData();
         setupUI();
-        animateScoreDisplay();
+        animateScoreDisplay(); // Enabled score animation
     }
 
     private void setupEventHandlers() {
@@ -68,15 +68,15 @@ public class ScoreViewController {
         quiz_level_name.setText("Level " + CURRENT_LEVEL+" Score");
 
         // If no current quiz score, fallback to saved score
-        if (currentScore == null) {
-            this.currentScore = JsonDataLoader.getInstance().getLatestScore(CURRENT_LEVEL);
-        }
+        //if (currentScore == null) {
+        //  this.currentScore = JsonDataLoader.getInstance().getLatestScore(CURRENT_LEVEL);
+        //}
 
         // Last resort fallback
         if (currentScore == null) {
             currentScore = new LevelScore();
             currentScore.setLevel(CURRENT_LEVEL);
-            currentScore.setScore(0);
+            currentScore.setScore(50);
             currentScore.setCorrectAnswers(0);
             currentScore.setTotalQuestions(15);
             logger.warn("No score data found, using fallback score");
@@ -190,22 +190,24 @@ public class ScoreViewController {
         nextLevelButton.setVisible(false);
         levelsButton.setVisible(true);
     }
+
     private void animateScoreDisplay() {
         double radius = 45;
         double circumference = 2 * Math.PI * radius;
         double percentage = currentScore.getScore();
 
-        System.out.println("Debug - Score percentage: " + percentage); // Debug line
+        System.out.println("Debug - Score percentage: " + percentage);
 
         // Clear any existing dash array first
         scoreProgressCircle.getStrokeDashArray().clear();
+        //scoreProgressCircle.
 
         // Setup stroke dash array
         scoreProgressCircle.getStrokeDashArray().setAll(circumference, circumference);
 
         // Start from top (12 o'clock)
         scoreProgressCircle.setRotate(90); // Start from 12 o'clock position
-        scoreProgressCircle.setScaleX(-1); // Flip horizontally for anticlockwise direction
+        scoreProgressCircle.setScaleX(1); // Normal direction (clockwise)
 
         // Set stroke width to make it visible
         scoreProgressCircle.setStrokeWidth(6);
@@ -213,28 +215,36 @@ public class ScoreViewController {
         // Initial state: no progress shown (full dash offset)
         scoreProgressCircle.setStrokeDashOffset(circumference);
 
-        // Calculate final dash offset based on percentage
-        double finalDashOffset = circumference - (circumference * percentage / 100.0);
-
-        // Set color based on score threshold
+        // Calculate final dash offset based on percentage and score range
+        double finalDashOffset;
         javafx.scene.paint.Color strokeColor;
+
         if (percentage < PASS_THRESHOLD) {
-            // Red for failing scores
+            // Red color for scores below 50%
             strokeColor = javafx.scene.paint.Color.web("#e74c3c");
         } else {
-            // Green for passing scores
+            // Green color for scores 50% and above
             strokeColor = javafx.scene.paint.Color.web("#27ae60");
         }
 
-        // Set the stroke color immediately
+        // Show the actual percentage of the circle filled
+        // For stroke-dashoffset: to show X%, offset should be circumference * (1 - X/100)
+        // But due to how JavaFX handles it, we need to reverse this
+        finalDashOffset = circumference - (circumference * percentage / 100.0);
+
+        // Set the stroke color
         scoreProgressCircle.setStroke(strokeColor);
 
         // Make sure the circle is visible
         scoreProgressCircle.setVisible(true);
         scoreProgressCircle.setOpacity(1.0);
 
-        System.out.println("Debug - Final dash offset: " + finalDashOffset); // Debug line
-        System.out.println("Debug - Circumference: " + circumference); // Debug line
+        // too transparent to show only the colored stroke
+        scoreProgressCircle.setFill(javafx.scene.paint.Color.TRANSPARENT);
+
+        System.out.println("Debug - Final dash offset: " + finalDashOffset);
+        System.out.println("Debug - Circumference: " + circumference);
+        System.out.println("Debug - Color: " + (percentage < PASS_THRESHOLD ? "Red" : "Green"));
 
         // Create animation timeline
         Timeline timeline = new Timeline();

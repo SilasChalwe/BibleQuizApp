@@ -119,9 +119,9 @@ public class JsonDataLoader {
 
                 boolean isParagraph = q.getQuestion().trim().split("\\s+").length >= 20;
 
-                if (level == 3 && isParagraph) continue;
+                if (level <= 3 && isParagraph) continue;
 
-                if (level <= 5 || isParagraph) {
+                if (level >= 5 || isParagraph) {
                     if (random.nextBoolean()) {
                         picked.add(q);
                         addedThisRound++;
@@ -172,29 +172,17 @@ public class JsonDataLoader {
             }
         }
     }
-
-    public int calculateStars(double score, int totalQuestions) {
-        if (totalQuestions == 0) return 0;
-        double percent = (score / 100) * 100;
-        if (percent >= 90) return 3;
-        if (percent >= 60) return 2;
-        if (percent >= 30) return 1;
-        return 0;
-    }
-
     public void saveScore(LevelScore levelScore) {
         scoresByLevel.put(levelScore.getLevel(), levelScore);
         try (Writer writer = Files.newBufferedWriter(scoreFilePath)) {
             List<LevelScore> allScores = new ArrayList<>(scoresByLevel.values());
-            gson.toJson(allScores, writer); // This now uses pretty-printing
+            gson.toJson(allScores, writer);
             logger.info("Saved score for level {}", levelScore.getLevel());
         } catch (IOException e) {
             logger.error("Failed to save scores: {}", e.getMessage(), e);
         }
     }
 
-
-    // Helper method to save all scores at once
     public void saveAllScores() {
         try (Writer writer = Files.newBufferedWriter(scoreFilePath)) {
             List<LevelScore> allScores = new ArrayList<>(scoresByLevel.values());
@@ -250,6 +238,14 @@ public class JsonDataLoader {
 
     public int getTotalLevelsCount() {
         return  scoresByLevel.size();
+    }
+    public int calculateStars(double score, int totalQuestions) {
+        if (totalQuestions == 0) return 0;
+        double percent = (score / 100) * 100;
+        if (percent >= 90) return 3;
+        if (percent >= 60) return 2;
+        if (percent >= 30) return 1;
+        return 0;
     }
 
 

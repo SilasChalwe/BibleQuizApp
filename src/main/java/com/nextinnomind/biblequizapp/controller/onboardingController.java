@@ -1,4 +1,4 @@
-package com.nextinnomind.biblequizapp;
+package com.nextinnomind.biblequizapp.controller;
 
 import com.nextinnomind.biblequizapp.utils.DesktopViewLoader;
 import com.nextinnomind.biblequizapp.utils.MobileViewLoader;
@@ -13,9 +13,9 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 
-public class HelloController {
+public class onboardingController {
 
-    private static final Logger logger = LogManager.getLogger(HelloController.class);
+    private static final Logger logger = LogManager.getLogger(onboardingController.class);
 
     @FXML
     private Button playButton;

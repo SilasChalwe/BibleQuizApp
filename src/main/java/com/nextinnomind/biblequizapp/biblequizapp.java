@@ -17,9 +17,9 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
 
-public class HelloApplication extends Application {
+public class biblequizapp extends Application {
 
-    private static final Logger logger = LogManager.getLogger(HelloApplication.class);
+    private static final Logger logger = LogManager.getLogger(biblequizapp.class);
 
     private ViewModeSelector selector;
     private static Stage splashStage;
@@ -30,6 +30,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage primaryStage) {
         logger.info("Application startup initiated...");
+       // selector.clearSavedChoice();
 
         Platform.runLater(() -> {
             try {
@@ -81,7 +82,7 @@ public class HelloApplication extends Application {
         splashRoot.setStyle("-fx-background-color: #2a2a2a;");
 
         Image splashImage = new Image(Objects.requireNonNull(
-                HelloApplication.class.getResourceAsStream("/com/nextinnomind/biblequizapp/assets/splash.png")));
+                biblequizapp.class.getResourceAsStream("/com/nextinnomind/biblequizapp/assets/splash.png")));
         ImageView splashImageView = new ImageView(splashImage);
         splashImageView.setPreserveRatio(true);
         splashImageView.setFitWidth(SPLASH_WIDTH);
@@ -128,7 +129,7 @@ public class HelloApplication extends Application {
 
     private void loadMainView(Stage stage, String viewMode) {
         try {
-            String fxmlPath = "/com/nextinnomind/biblequizapp/views/onboarding-view.fxml";
+            String fxmlPath = "/com/nextinnomind/biblequizapp/views/score-view.fxml";
 
             if ("mobile".equalsIgnoreCase(viewMode)) {
                 MobileViewLoader.load(stage, fxmlPath);
@@ -158,8 +159,7 @@ public class HelloApplication extends Application {
 
     private void cleanup() {
         try {
-            JsonDataLoader dataLoader = JsonDataLoader.getInstance();
-            dataLoader.saveAllScores();
+            JsonDataLoader.getInstance();
             if (selector != null) selector.clearSavedChoice();
             logger.info("Cleanup completed successfully.");
         } catch (Exception e) {

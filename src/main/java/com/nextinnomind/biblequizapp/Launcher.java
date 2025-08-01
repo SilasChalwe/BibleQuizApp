@@ -11,6 +11,6 @@ public class Launcher {
         System.setProperty("java.awt.headless", "false");
 
         // Launch the actual JavaFX application
-        HelloApplication.main(args);
+        biblequizapp.main(args);
     }
 }

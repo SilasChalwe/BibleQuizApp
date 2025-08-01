@@ -1,0 +1,2722 @@
+[
+  {
+    "question": "In the account of Gideon\u0027s victory over Midian (Judges 7:1-25), God reduced Israel\u0027s army from 32,000 to just 300 men. The selected warriors were chosen based on how they drank water from a stream. After hearing a dream interpretation in the enemy camp, Gideon instructed his men: \u0027Watch me and do likewise.\u0027 What unconventional battle strategy involving torches and pitchers led to the Midianites\u0027 defeat?",
+    "option_a": "They built trenches to flood the camp",
+    "option_b": "They blew trumpets and broke pitchers to reveal torches",
+    "option_c": "They set fire to surrounding fields",
+    "option_d": "They ambushed from three directions at dawn",
+    "answer": "option_b"
+  },
+  {
+    "question": "During Jesus\u0027 trial before the Sanhedrin (Mark 14:53-65), false witnesses accused Him of threatening to destroy the temple. When the high priest demanded: \u0027Are you the Christ?\u0027 Jesus responded: \u0027I am, and you will see the Son of Man seated at the right hand of Power.\u0027 What dramatic action by the high priest revealed the council\u0027s verdict before any official vote?",
+    "option_a": "He ordered Jesus to be scourged",
+    "option_b": "He tore his garments declaring blasphemy",
+    "option_c": "He called for Barabbas\u0027 release",
+    "option_d": "He washed his hands publicly",
+    "answer": "option_b"
+  },
+  {
+    "question": "In the story of Hagar\u0027s exile (Genesis 21:8-20), Abraham sent away his son Ishmael and concubine Hagar with only bread and water. When supplies ran out in the wilderness, Hagar placed Ishmael under bushes and wept, saying: \u0027I cannot watch the boy die.\u0027 What divine intervention occurred just as Ishmael began crying?",
+    "option_a": "An angel redirected them to an oasis",
+    "option_b": "God opened Hagar\u0027s eyes to see a well",
+    "option_c": "Manna appeared on the ground",
+    "option_d": "A caravan discovered them",
+    "answer": "option_b"
+  },
+  {
+    "question": "During Paul\u0027s Ephesian ministry (Acts 19:11-20), God performed extraordinary miracles through handkerchiefs that touched Paul. When seven sons of Sceva attempted exorcism using Jesus\u0027 name, the evil spirit responded: \u0027Jesus I know, and Paul I recognize, but who are you?\u0027 What violent outcome demonstrated the danger of unauthorized spiritual warfare?",
+    "option_a": "The men were struck mute",
+    "option_b": "The demon possessed them instead",
+    "option_c": "They fled naked and wounded",
+    "option_d": "A fire consumed their house",
+    "answer": "option_c"
+  },
+  {
+    "question": "In Jesus\u0027 post-resurrection appearance at the Sea of Galilee (John 21:1-14), seven disciples fished all night without success. At dawn, Jesus called from shore: \u0027Cast the net on the right side.\u0027 When they hauled in 153 large fish, what distinctive detail made John realize it was Jesus?",
+    "option_a": "The miraculous catch itself",
+    "option_b": "Jesus\u0027 manner of walking on water",
+    "option_c": "The charcoal fire with fish and bread",
+    "option_d": "The nail marks in His hands",
+    "answer": "option_c"
+  },
+  {
+    "question": "During Solomon\u0027s construction of the Temple (1 Kings 6:1-38), God promised: \u0027If you walk in my statutes... I will dwell among the children of Israel.\u0027 What unique architectural feature symbolized God\u0027s presence in the Most Holy Place?",
+    "option_a": "The bronze sea on twelve oxen",
+    "option_b": "The golden lampstands",
+    "option_c": "The ark of the covenant",
+    "option_d": "The two massive cherubim",
+    "answer": "option_d"
+  },
+  {
+    "question": "In the healing of the man born blind (John 9:1-41), after Jesus made mud with saliva and anointed his eyes, He instructed: \u0027Go wash in the pool of Siloam.\u0027 When Pharisees interrogated the healed man, what bold confession led to his excommunication?",
+    "option_a": "I know this man is a sinner",
+    "option_b": "If this man were not from God...",
+    "option_c": "He must be the Messiah",
+    "option_d": "Never since the world began...",
+    "answer": "option_d"
+  },
+  {
+    "question": "During the stoning of Stephen (Acts 7:54-60), as his accusers covered their ears and rushed at him, what heavenly vision sustained him? What final prayer echoed Christ\u0027s words on the cross?",
+    "option_a": "He saw the Son of Man standing",
+    "option_b": "He saw angels ready to receive him",
+    "option_c": "He saw the New Jerusalem descending",
+    "option_d": "He saw Moses and Elijah waiting",
+    "answer": "option_a"
+  },
+  {
+    "question": "In the Parable of the Wedding Feast (Matthew 22:1-14), after initial guests rejected the king\u0027s invitation, servants gathered people from highways. When the king noticed a man without wedding clothes, what severe punishment illustrated the consequence of spiritual unpreparedness?",
+    "option_a": "He was sent to work in fields",
+    "option_b": "He was bound hand and foot",
+    "option_c": "He was required to wash feet",
+    "option_d": "He was excluded from the feast",
+    "answer": "option_b"
+  },
+  {
+    "question": "During Paul\u0027s shipwreck at Malta (Acts 28:1-6), as he gathered firewood, a viper latched onto his hand. When islanders expected him to swell up or die, what miraculous outcome made them declare him a god?",
+    "option_a": "He shook the snake into the fire",
+    "option_b": "He healed their chief first",
+    "option_c": "He showed no ill effects",
+    "option_d": "He spoke in their dialect",
+    "answer": "option_c"
+  },
+  {
+    "question": "In the story of Rahab and the spies (Joshua 2:1-24), the prostitute hid Israelite spies and lied to authorities. What distinctive marker did she request for her family\u0027s protection during Jericho\u0027s destruction?",
+    "option_a": "A lamb\u0027s blood on the doorpost",
+    "option_b": "A scarlet cord in the window",
+    "option_c": "White cloth on the roof",
+    "option_d": "An olive branch on the gate",
+    "answer": "option_b"
+  },
+  {
+    "question": "During Jesus\u0027 anointing at Bethany (John 12:1-8), Mary poured expensive nard worth 300 denarii on His feet. When Judas objected about waste, what profound statement did Jesus make about Mary\u0027s act?",
+    "option_a": "She prepares me for burial",
+    "option_b": "The poor you always have",
+    "option_c": "This will be remembered",
+    "option_d": "She loves much",
+    "answer": "option_a"
+  },
+  {
+    "question": "In the Valley of Dry Bones vision (Ezekiel 37:1-14), God commanded Ezekiel to prophesy to bones. After sinews and flesh appeared, what final element brought the army to life?",
+    "option_a": "The four winds",
+    "option_b": "The voice of God",
+    "option_c": "The breath from heaven",
+    "option_d": "The prophet\u0027s staff",
+    "answer": "option_c"
+  },
+  {
+    "question": "During the conversion of Cornelius (Acts 10:9-48), Peter saw a vision of unclean animals with the command: \u0027Kill and eat.\u0027 What threefold repetition emphasized God\u0027s lesson about Gentiles?",
+    "option_a": "What God cleansed is clean",
+    "option_b": "Do not call common what God made",
+    "option_c": "Salvation is for all nations",
+    "option_d": "The gospel breaks all barriers",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Solomon\u0027s judgment of the two mothers (1 Kings 3:16-28), when the true mother begged: \u0027Give her the living child!\u0027, what principle did Solomon apply to resolve the dispute?",
+    "option_a": "Maternal instinct reveals truth",
+    "option_b": "Sacrificial love identifies ownership",
+    "option_c": "Biological testing settles claims",
+    "option_d": "Divine wisdom surpasses evidence",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Jesus\u0027 parable of the talents (Matthew 25:14-30), a master entrusted his property to three servants before traveling. To the first he gave five talents, to the second two talents, and to the third one talent. When he returned, which servant had buried his talent in the ground and was condemned as \u0027wicked and slothful\u0027?",
+    "option_a": "The servant given five talents",
+    "option_b": "The servant given two talents",
+    "option_c": "The servant given one talent",
+    "option_d": "None of the servants",
+    "answer": "option_c"
+  },
+  {
+    "question": "In the account of David and Goliath (1 Samuel 17), when David arrived at the battlefield, he heard Goliath\u0027s challenge and was indignant that no Israelite would fight him. What specific reward did King Saul promise to whoever would defeat Goliath?",
+    "option_a": "The king\u0027s armor and weapons",
+    "option_b": "Marriage to the king\u0027s daughter",
+    "option_c": "Exemption from taxes for life",
+    "option_d": "A position as army commander",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Paul\u0027s letter to the Ephesians (Ephesians 6:10-18), he describes the full armor of God that believers should wear. Which piece of armor did Paul specifically say would \u0027extinguish all the flaming darts of the evil one\u0027?",
+    "option_a": "The belt of truth",
+    "option_b": "The breastplate of righteousness",
+    "option_c": "The shield of faith",
+    "option_d": "The helmet of salvation",
+    "answer": "option_c"
+  },
+  {
+    "question": "In the story of Joseph\u0027s interpretation of Pharaoh\u0027s dreams (Genesis 41), Pharaoh dreamed of seven lean cows devouring seven fat cows, and seven thin ears of grain devouring seven plump ears. What did Joseph say these dreams signified?",
+    "option_a": "Seven years of famine following seven years of plenty",
+    "option_b": "Seven wars that would come upon Egypt",
+    "option_c": "Seven plagues that would strike the land",
+    "option_d": "Seven kingdoms that would conquer Egypt",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Jesus\u0027 conversation with Nicodemus (John 3:1-21), He made a famous statement about salvation: \u0027For God so loved the world, that he gave his only Son...\u0027 What was the stated purpose for God sending His Son into the world?",
+    "option_a": "To condemn the world for its sin",
+    "option_b": "To establish an earthly kingdom",
+    "option_c": "To judge between the righteous and wicked",
+    "option_d": "That whoever believes in him might have eternal life",
+    "answer": "option_d"
+  },
+  {
+    "question": "In the Parable of the Prodigal Son (Luke 15:11-32), when the younger son returned home in repentance, what was the father\u0027s immediate response upon seeing him?",
+    "option_a": "He questioned him about his wasted inheritance",
+    "option_b": "He ordered the servants to prepare a feast",
+    "option_c": "He ran to embrace and kiss him",
+    "option_d": "He required him to work as a hired servant",
+    "answer": "option_c"
+  },
+  {
+    "question": "In the account of Peter\u0027s escape from prison (Acts 12:1-19), when Peter knocked at the door of Mary\u0027s house where believers were praying for him, who came to answer but left him standing outside in her excitement?",
+    "option_a": "Mary Magdalene",
+    "option_b": "Rhoda the servant girl",
+    "option_c": "Lydia the seller of purple",
+    "option_d": "Dorcas the seamstress",
+    "answer": "option_b"
+  },
+  {
+    "question": "In the Sermon on the Mount (Matthew 5-7), Jesus gave several examples contrasting traditional interpretations with His deeper teachings. When discussing murder, what did Jesus say was equally culpable before God?",
+    "option_a": "Stealing from one\u0027s neighbor",
+    "option_b": "Looking with lust",
+    "option_c": "Anger and insulting speech",
+    "option_d": "Breaking Sabbath laws",
+    "answer": "option_c"
+  },
+  {
+    "question": "In the story of Balaam and his donkey (Numbers 22:21-35), when the angel stood in the road with drawn sword, what unusual thing did the donkey do to save Balaam\u0027s life?",
+    "option_a": "Spoke with a human voice",
+    "option_b": "Knocked Balaam off her back",
+    "option_c": "Refused to move forward",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "In Paul\u0027s description of love in 1 Corinthians 13, he makes a series of contrasts about spiritual gifts. What did he say would happen to prophecies, tongues, and knowledge?",
+    "option_a": "They would increase in importance",
+    "option_b": "They would be perfected in Christ",
+    "option_c": "They would pass away or cease",
+    "option_d": "They would be replaced by greater gifts",
+    "answer": "option_c"
+  },
+  {
+    "question": "When Jesus appeared to Thomas after the resurrection (John 20:24-29), what did Thomas declare after seeing Jesus\u0027 wounds?",
+    "option_a": "Blessed are those who believe without seeing",
+    "option_b": "My Lord and my God!",
+    "option_c": "I will never doubt again",
+    "option_d": "You are truly the Messiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Daniel\u0027s interpretation of Nebuchadnezzar\u0027s dream (Daniel 2:31-45), the king saw a great statue made of different metals. What did the stone cut without hands represent?",
+    "option_a": "The kingdom of Persia",
+    "option_b": "The eternal kingdom of God",
+    "option_c": "The Greek empire of Alexander",
+    "option_d": "The Roman empire",
+    "answer": "option_b"
+  },
+  {
+    "question": "When the Israelites crossed the Jordan River (Joshua 3-4), how did God stop the waters so they could cross on dry ground?",
+    "option_a": "Moses struck the water with his staff",
+    "option_b": "The waters parted when the priests\u0027 feet touched them",
+    "option_c": "An earthquake diverted the river",
+    "option_d": "A strong east wind blew all night",
+    "answer": "option_b"
+  },
+  {
+    "question": "In the story of the woman caught in adultery (John 8:1-11), what did Jesus write on the ground that caused the accusers to leave?",
+    "option_a": "The Ten Commandments",
+    "option_b": "The names of their secret sins",
+    "option_c": "The words \u0027mercy triumphs over judgment\u0027",
+    "option_d": "The scripture doesn\u0027t specify",
+    "answer": "option_d"
+  },
+  {
+    "question": "In Ezekiel\u0027s vision of the valley of dry bones (Ezekiel 37:1-14), what did the bones represent?",
+    "option_a": "The destruction of Jerusalem",
+    "option_b": "The whole house of Israel",
+    "option_c": "The fallen armies of Judah",
+    "option_d": "The nations opposed to God",
+    "answer": "option_b"
+  },
+  {
+    "question": "When Jesus appeared to Saul on the road to Damascus (Acts 9:1-19), what was Saul doing when Jesus confronted him?",
+    "option_a": "Preaching against Christians",
+    "option_b": "Journeying to arrest believers",
+    "option_c": "Praying at the temple",
+    "option_d": "Debating with Gamaliel",
+    "answer": "option_b"
+  },
+  {
+    "question": "In the parable of the sheep and goats (Matthew 25:31-46), what criterion did Jesus say the King would use to separate them?",
+    "option_a": "Their theological knowledge",
+    "option_b": "Their acts of mercy to others",
+    "option_c": "Their religious observance",
+    "option_d": "Their financial generosity",
+    "answer": "option_b"
+  },
+  {
+    "question": "When the Holy Spirit descended at Pentecost (Acts 2:1-13), what visible sign appeared above the disciples?",
+    "option_a": "A bright star",
+    "option_b": "Tongues of fire",
+    "option_c": "A cloud of glory",
+    "option_d": "A dove descending",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Solomon\u0027s judgment between two women claiming the same baby (1 Kings 3:16-28), what did Solomon propose to do that revealed the true mother?",
+    "option_a": "Ask for divine revelation",
+    "option_b": "Divide the child with a sword",
+    "option_c": "Question them separately",
+    "option_d": "Examine their homes",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Paul\u0027s shipwreck account (Acts 27:13-44), what did Paul tell the terrified crew after 14 days without food?",
+    "option_a": "They should swim for shore",
+    "option_b": "They should lighten the ship",
+    "option_c": "An angel promised no lives would be lost",
+    "option_d": "They would drift to safety",
+    "answer": "option_c"
+  },
+  {
+    "question": "When Jesus washed the disciples\u0027 feet (John 13:1-17), what did Peter initially say when Jesus came to wash his feet?",
+    "option_a": "Wash my hands and head also",
+    "option_b": "You shall never wash my feet",
+    "option_c": "Let me wash your feet instead",
+    "option_d": "This is not appropriate",
+    "answer": "option_b"
+  },
+  {
+    "question": "In the story of Elisha and the widow\u0027s oil (2 Kings 4:1-7), what did Elisha instruct the widow to do with the oil?",
+    "option_a": "Anoint her children for blessing",
+    "option_b": "Sell it to pay her debts",
+    "option_c": "Use it to light the temple",
+    "option_d": "Give it to the poor",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Hebrews 11, often called the \u0027Faith Chapter,\u0027 what does the author say about faith?",
+    "option_a": "It comes by hearing God\u0027s word",
+    "option_b": "It is the evidence of things not seen",
+    "option_c": "It makes all things possible",
+    "option_d": "It is greater than hope and love",
+    "answer": "option_b"
+  },
+  {
+    "question": "When the magi came seeking Jesus (Matthew 2:1-12), what sign had they seen that prompted their journey?",
+    "option_a": "A special alignment of planets",
+    "option_b": "A star in the east",
+    "option_c": "An angelic visitation",
+    "option_d": "A prophetic dream",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about the vine and branches (John 15:1-17), what does Jesus say happens to branches that don\u0027t bear fruit?",
+    "option_a": "They are pruned carefully",
+    "option_b": "They are tied to stronger branches",
+    "option_c": "They are cut off and burned",
+    "option_d": "They are given special nourishment",
+    "answer": "option_c"
+  },
+  {
+    "question": "When God appeared to Solomon at Gibeon (1 Kings 3:5-14), what did Solomon ask for?",
+    "option_a": "Long life and riches",
+    "option_b": "Victory over enemies",
+    "option_c": "An understanding heart to judge",
+    "option_d": "A lasting dynasty",
+    "answer": "option_c"
+  },
+  {
+    "question": "In the Book of Revelation\u0027s messages to the seven churches, what was Christ\u0027s criticism of the church in Laodicea?",
+    "option_a": "They had lost their first love",
+    "option_b": "They tolerated false teaching",
+    "option_c": "They were lukewarm",
+    "option_d": "They were spiritually dead",
+    "answer": "option_c"
+  },
+  {
+    "question": "When Jesus raised Jairus\u0027 daughter (Luke 8:40-56), what did He say to the mourners who laughed at Him?",
+    "option_a": "Leave, for the girl is only sleeping",
+    "option_b": "Your lack of faith hinders miracles",
+    "option_c": "Weep no more, she will rise",
+    "option_d": "Believe, and you will see glory",
+    "answer": "option_a"
+  },
+  {
+    "question": "In the story of the Ethiopian eunuch (Acts 8:26-40), what passage of Scripture was he reading when Philip encountered him?",
+    "option_a": "Psalm 23",
+    "option_b": "Isaiah 53",
+    "option_c": "Genesis 22",
+    "option_d": "Daniel 7",
+    "answer": "option_b"
+  },
+  {
+    "question": "When Paul wrote to Philemon about Onesimus, what was Paul\u0027s primary request?",
+    "option_a": "To send Onesimus back to Paul",
+    "option_b": "To free Onesimus from slavery",
+    "option_c": "To forgive Onesimus as a brother",
+    "option_d": "To compensate Onesimus for injuries",
+    "answer": "option_c"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about the Good Shepherd (John 10:1-18), what does He say distinguishes His true sheep?",
+    "option_a": "They follow Him immediately",
+    "option_b": "They know His voice",
+    "option_c": "They bear His mark",
+    "option_d": "They gather in flocks",
+    "answer": "option_b"
+  },
+  {
+    "question": "When Joshua fought the Amorites (Joshua 10:1-15), what miraculous event occurred to allow Israel more time for victory?",
+    "option_a": "The Jordan River parted",
+    "option_b": "The sun stood still",
+    "option_c": "Hailstones fell on the enemy",
+    "option_d": "The walls of Jerusalem fell",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Paul\u0027s teaching about the Lord\u0027s Supper (1 Corinthians 11:23-34), what does he say believers should do before participating?",
+    "option_a": "Be baptized by immersion",
+    "option_b": "Confess sins to one another",
+    "option_c": "Examine themselves",
+    "option_d": "Fast for twenty-four hours",
+    "answer": "option_c"
+  },
+  {
+    "question": "When Elijah confronted the prophets of Baal on Mount Carmel (1 Kings 18:20-40), what did he do to his sacrifice that they didn\u0027t do to theirs?",
+    "option_a": "He prayed over it publicly",
+    "option_b": "He soaked it with water",
+    "option_c": "He used special consecrated fire",
+    "option_d": "He cut it into pieces",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Jesus\u0027 explanation of the Parable of the Sower (Matthew 13:18-23), what does the seed represent?",
+    "option_a": "The kingdom of God",
+    "option_b": "The word of God",
+    "option_c": "Faith in Christ",
+    "option_d": "God\u0027s chosen people",
+    "answer": "option_b"
+  },
+  {
+    "question": "When David was anointed king (1 Samuel 16:1-13), who among Jesse\u0027s sons did Samuel initially think would be God\u0027s choice?",
+    "option_a": "Eliab the eldest",
+    "option_b": "Abinadab the second",
+    "option_c": "Shammah the third",
+    "option_d": "David the youngest",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Peter\u0027s sermon at Pentecost (Acts 2:14-41), what Old Testament prophet did he quote extensively?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Joel",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Jesus healed the paralytic lowered through the roof (Mark 2:1-12), what did He say first that upset the religious leaders?",
+    "option_a": "Your faith has made you well",
+    "option_b": "Take up your mat and walk",
+    "option_c": "Your sins are forgiven",
+    "option_d": "Go and sin no more",
+    "answer": "option_c"
+  },
+  {
+    "question": "In Paul\u0027s description of spiritual armor (Ephesians 6), what is the only offensive weapon listed?",
+    "option_a": "The shield of faith",
+    "option_b": "The helmet of salvation",
+    "option_c": "The sword of the Spirit",
+    "option_d": "The breastplate of righteousness",
+    "answer": "option_c"
+  },
+  {
+    "question": "When the Israelites complained in the wilderness (Numbers 21:4-9), what judgment did God send that prompted Moses to make a bronze serpent?",
+    "option_a": "A plague of locusts",
+    "option_b": "Fiery serpents",
+    "option_c": "A wasting disease",
+    "option_d": "Three days of darkness",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about prayer (Matthew 6:5-15), what did He forbid His followers to do like the hypocrites?",
+    "option_a": "Pray with elaborate words",
+    "option_b": "Pray only in temples",
+    "option_c": "Pray standing in synagogues and streets",
+    "option_d": "Pray for material blessings",
+    "answer": "option_c"
+  },
+  {
+    "question": "When Daniel was thrown into the lions\u0027 den (Daniel 6), why did the lions not attack him?",
+    "option_a": "Daniel had drugged the lions",
+    "option_b": "God sent an angel to shut their mouths",
+    "option_c": "The lions recognized God\u0027s servant",
+    "option_d": "Daniel was protected by armor",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Paul\u0027s discussion of the resurrection (1 Corinthians 15), what does he call \u0027the last enemy\u0027?",
+    "option_a": "Sin",
+    "option_b": "Death",
+    "option_c": "The law",
+    "option_d": "Satan",
+    "answer": "option_b"
+  },
+  {
+    "question": "When Jesus fed the 5,000 (John 6:1-14), what did He use to perform the miracle?",
+    "option_a": "Seven loaves and a few fish",
+    "option_b": "Five barley loaves and two fish",
+    "option_c": "Manna from heaven",
+    "option_d": "The disciples\u0027 provisions",
+    "answer": "option_b"
+  },
+  {
+    "question": "In the story of Naaman\u0027s healing (2 Kings 5), what did Elisha instruct him to do to be cleansed of leprosy?",
+    "option_a": "Wash seven times in the Jordan River",
+    "option_b": "Make a sacrifice at the temple",
+    "option_c": "Pray facing Jerusalem",
+    "option_d": "Give away all his possessions",
+    "answer": "option_a"
+  },
+  {
+    "question": "When God made His covenant with Abraham (Genesis 15), what unusual ceremony did God use to confirm it?",
+    "option_a": "A smoking firepot and flaming torch",
+    "option_b": "A rainbow in the clouds",
+    "option_c": "Circumcision of all males",
+    "option_d": "The sacrifice of Isaac",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about the end times (Matthew 24), what sign did He say would appear before His return?",
+    "option_a": "The abomination of desolation",
+    "option_b": "The rebuilding of the temple",
+    "option_c": "A great earthquake",
+    "option_d": "The moon turning to blood",
+    "answer": "option_a"
+  },
+  {
+    "question": "When Paul and Silas were in prison at Philippi (Acts 16:16-40), what happened at midnight that led to their release?",
+    "option_a": "An angel opened the doors",
+    "option_b": "A great earthquake shook foundations",
+    "option_c": "The jailer fell into deep sleep",
+    "option_d": "They sang hymns of praise",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Solomon\u0027s dedication of the temple (1 Kings 8), what physical manifestation showed God\u0027s presence?",
+    "option_a": "A bright star over the temple",
+    "option_b": "A cloud filling the temple",
+    "option_c": "Fire consuming the sacrifice",
+    "option_d": "A voice from heaven",
+    "answer": "option_b"
+  },
+  {
+    "question": "When Jesus appeared to the disciples after His resurrection (Luke 24:36-49), what did He eat to prove He wasn\u0027t a ghost?",
+    "option_a": "Bread and fish",
+    "option_b": "A honeycomb",
+    "option_c": "Passover lamb",
+    "option_d": "Olives and cheese",
+    "answer": "option_a"
+  },
+  {
+    "question": "In the Parable of the Persistent Widow (Luke 18:1-8), what motivated the unjust judge to grant her request?",
+    "option_a": "Fear of divine punishment",
+    "option_b": "Her bribery of court officials",
+    "option_c": "Her continual coming",
+    "option_d": "Public pressure",
+    "answer": "option_c"
+  },
+  {
+    "question": "When Moses struck the rock at Meribah (Numbers 20:1-13), why was he forbidden from entering the Promised Land?",
+    "option_a": "He struck it twice instead of speaking",
+    "option_b": "He took credit for the miracle",
+    "option_c": "He did it in anger",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "In Paul\u0027s discussion of spiritual gifts (1 Corinthians 12), what does he say should be the motivation for using them?",
+    "option_a": "The common good",
+    "option_b": "Personal fulfillment",
+    "option_c": "Church recognition",
+    "option_d": "Financial reward",
+    "answer": "option_a"
+  },
+  {
+    "question": "When Jonah preached to Nineveh (Jonah 3), what was the king\u0027s response that demonstrated repentance?",
+    "option_a": "He destroyed all idols",
+    "option_b": "He issued a decree for fasting",
+    "option_c": "He gave Jonah great wealth",
+    "option_d": "He abdicated his throne",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Jesus\u0027 encounter with Zacchaeus (Luke 19:1-10), what did Zacchaeus promise to do after Jesus visited his home?",
+    "option_a": "Give half his wealth to the poor",
+    "option_b": "Repay fourfold anyone he defrauded",
+    "option_c": "Follow Jesus as a disciple",
+    "option_d": "Both A and B",
+    "answer": "option_d"
+  },
+  {
+    "question": "When the Israelites built the golden calf (Exodus 32), what did Aaron say he did with the gold jewelry?",
+    "option_a": "Threw it into the fire and out came the calf",
+    "option_b": "Formed it with engraving tools",
+    "option_c": "Melted it in a furnace",
+    "option_d": "Received it from Egyptian magicians",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Paul\u0027s teaching about marriage (Ephesians 5:22-33), what does he say marriage is a picture of?",
+    "option_a": "The unity of the Trinity",
+    "option_b": "Christ and the church",
+    "option_c": "Heavenly worship",
+    "option_d": "God\u0027s covenant with Israel",
+    "answer": "option_b"
+  },
+  {
+    "question": "When David brought the ark to Jerusalem (2 Samuel 6:1-11), why did God strike Uzzah?",
+    "option_a": "He touched the ark to steady it",
+    "option_b": "He mocked the procession",
+    "option_c": "He was unclean ceremonially",
+    "option_d": "He suggested an improper route",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about the final judgment (Matthew 25:31-46), who does He identify as \u0027the least of these my brothers\u0027?",
+    "option_a": "The poor and homeless",
+    "option_b": "His disciples",
+    "option_c": "Persecuted believers",
+    "option_d": "All humanity",
+    "answer": "option_c"
+  },
+  {
+    "question": "When Samson revealed the source of his strength (Judges 16), how did Delilah finally succeed in betraying him?",
+    "option_a": "She shaved his head while he slept",
+    "option_b": "She drugged his wine",
+    "option_c": "She bound him with ropes",
+    "option_d": "She used magical arts",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Paul\u0027s description of Christ\u0027s humility (Philippians 2:5-11), what did Christ do that demonstrated His obedience?",
+    "option_a": "Healed the sick without charge",
+    "option_b": "Washed the disciples\u0027 feet",
+    "option_c": "Became obedient to death on a cross",
+    "option_d": "Preached to the poor",
+    "answer": "option_c"
+  },
+  {
+    "question": "When the angel announced Jesus\u0027 birth to Mary (Luke 1:26-38), what did he say would be the sign of Elizabeth\u0027s pregnancy?",
+    "option_a": "She was in her sixth month",
+    "option_b": "She had conceived in old age",
+    "option_c": "The baby leaped in her womb",
+    "option_d": "Zechariah was made mute",
+    "answer": "option_a"
+  },
+  {
+    "question": "In the story of Jacob\u0027s ladder (Genesis 28:10-22), what did God promise Jacob at Bethel?",
+    "option_a": "The land where he lay would be his",
+    "option_b": "His descendants would be numerous",
+    "option_c": "All families would be blessed through him",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Jesus cleansed the temple (John 2:13-22), what Old Testament passage did His disciples recall?",
+    "option_a": "Zeal for your house will consume me",
+    "option_b": "My house shall be a house of prayer",
+    "option_c": "I desire mercy, not sacrifice",
+    "option_d": "Stop making my Father\u0027s house a marketplace",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Paul\u0027s analogy of the body (1 Corinthians 12:12-27), what point was he making about spiritual gifts?",
+    "option_a": "All parts are equally important",
+    "option_b": "Some gifts are more visible than others",
+    "option_c": "The church needs diversity to function",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "When the spies scouted Canaan (Numbers 13-14), what did Caleb and Joshua bring back to encourage the people?",
+    "option_a": "A cluster of grapes from Eshcol",
+    "option_b": "Evidence of crumbling walls",
+    "option_c": "Testimony of God\u0027s faithfulness",
+    "option_d": "Both A and C",
+    "answer": "option_d"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about the light of the world (Matthew 5:14-16), what did He say believers should do with their light?",
+    "option_a": "Shine before others to glorify God",
+    "option_b": "Hide it during persecution",
+    "option_c": "Use it to expose darkness",
+    "option_d": "Keep it burning with oil",
+    "answer": "option_a"
+  },
+  {
+    "question": "When the Holy Spirit fell on Cornelius\u0027 household (Acts 10), what convinced Peter they should be baptized?",
+    "option_a": "They spoke in tongues and praised God",
+    "option_b": "Cornelius\u0027 reputation for piety",
+    "option_c": "An angelic visitation",
+    "option_d": "The vision of the sheet",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Solomon\u0027s prayer for wisdom (Proverbs 2:1-6), what does he say is the foundation of knowledge?",
+    "option_a": "The fear of the Lord",
+    "option_b": "Obedience to parents",
+    "option_c": "Study of Scripture",
+    "option_d": "Life experience",
+    "answer": "option_a"
+  },
+  {
+    "question": "When Jesus healed the blind man at Siloam (John 9), what unusual method did He use?",
+    "option_a": "Made mud with saliva and anointed eyes",
+    "option_b": "Spoke the word at a distance",
+    "option_c": "Asked about his faith first",
+    "option_d": "Touched his eyes with hands",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Paul\u0027s instructions about communion (1 Corinthians 11), what does he say is the consequence of taking it unworthily?",
+    "option_a": "Being cut off from Israel",
+    "option_b": "Judgment and weakness",
+    "option_c": "Loss of salvation",
+    "option_d": "Excommunication",
+    "answer": "option_b"
+  },
+  {
+    "question": "When the angel freed Peter from prison (Acts 12:6-11), what did Peter think was happening?",
+    "option_a": "He was dreaming",
+    "option_b": "He was being executed",
+    "option_c": "He was being transferred",
+    "option_d": "He was seeing a vision",
+    "answer": "option_d"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about the kingdom (Luke 17:20-21), where did He say the kingdom of God is?",
+    "option_a": "Within believers",
+    "option_b": "Among the faithful",
+    "option_c": "In Jerusalem",
+    "option_d": "Both A and B",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Nebuchadnezzar threw Shadrach, Meshach and Abednego into the furnace (Daniel 3), what did he see that amazed him?",
+    "option_a": "A fourth figure like a son of the gods",
+    "option_b": "The fire not consuming them",
+    "option_c": "They were walking unharmed",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "In Paul\u0027s description of the gospel (Romans 1:16-17), what does he say it reveals about God?",
+    "option_a": "His mercy and grace",
+    "option_b": "His righteousness from faith to faith",
+    "option_c": "His wrath against ungodliness",
+    "option_d": "His power for salvation",
+    "answer": "option_b"
+  },
+  {
+    "question": "When Jesus cursed the fig tree (Mark 11:12-25), what spiritual lesson did He draw from it?",
+    "option_a": "The importance of bearing fruit",
+    "option_b": "The power of faith-filled prayer",
+    "option_c": "The danger of hypocrisy",
+    "option_d": "The nearness of judgment",
+    "answer": "option_b"
+  },
+  {
+    "question": "In the story of Ruth and Boaz (Ruth 3-4), what custom allowed Boaz to redeem Ruth?",
+    "option_a": "Year of Jubilee",
+    "option_b": "Kinsman-redeemer",
+    "option_c": "Levirate marriage",
+    "option_d": "Prophecy of elders",
+    "answer": "option_b"
+  },
+  {
+    "question": "When God appeared to Job out of the whirlwind (Job 38), what was His primary message?",
+    "option_a": "Comfort for Job\u0027s suffering",
+    "option_b": "Rebuke of Job\u0027s friends",
+    "option_c": "Questions about creation\u0027s mysteries",
+    "option_d": "Promise of restoration",
+    "answer": "option_c"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about treasures (Matthew 6:19-21), what did He say about earthly versus heavenly treasures?",
+    "option_a": "Earthly treasures decay",
+    "option_b": "Heavenly treasures are eternal",
+    "option_c": "Your heart follows your treasure",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Paul stood before Agrippa (Acts 26), what did Festus exclaim about Paul\u0027s testimony?",
+    "option_a": "Your great learning is driving you mad",
+    "option_b": "You almost persuade me to be Christian",
+    "option_c": "This man has done nothing worthy of death",
+    "option_d": "The truth is not in him",
+    "answer": "option_a"
+  },
+  {
+    "question": "In the Parable of the Unmerciful Servant (Matthew 18:21-35), how much did the forgiven servant owe the king?",
+    "option_a": "100 denarii",
+    "option_b": "500 silver coins",
+    "option_c": "10,000 talents",
+    "option_d": "A lifetime\u0027s wages",
+    "answer": "option_c"
+  },
+  {
+    "question": "When the witch of Endor summoned Samuel (1 Samuel 28), what message did Samuel give Saul?",
+    "option_a": "God would give him victory",
+    "option_b": "He and his sons would die tomorrow",
+    "option_c": "David would spare his life",
+    "option_d": "The kingdom would be restored",
+    "answer": "option_b"
+  },
+  {
+    "question": "In John\u0027s vision of heaven (Revelation 4), what surrounded God\u0027s throne?",
+    "option_a": "Twenty-four elders",
+    "option_b": "Four living creatures",
+    "option_c": "A sea of glass",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Jesus taught about fasting (Matthew 6:16-18), what did He say His followers should do?",
+    "option_a": "Fast twice weekly",
+    "option_b": "Anoint heads and wash faces",
+    "option_c": "Give generously while fasting",
+    "option_d": "Fast only on Yom Kippur",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Paul\u0027s metaphor of the armor of God (Ephesians 6), what does the belt represent?",
+    "option_a": "Faith",
+    "option_b": "Truth",
+    "option_c": "Salvation",
+    "option_d": "Righteousness",
+    "answer": "option_b"
+  },
+  {
+    "question": "When the Israelites crossed the Red Sea (Exodus 14), what did God do to protect them from the Egyptians?",
+    "option_a": "The pillar of cloud moved behind them",
+    "option_b": "Angels fought alongside them",
+    "option_c": "Moses parted the waters",
+    "option_d": "A great wind blew all night",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Jesus\u0027 conversation with the Samaritan woman (John 4), what did He say about worship?",
+    "option_a": "It must be in Jerusalem",
+    "option_b": "God seeks true worshipers in spirit and truth",
+    "option_c": "Samaritans worship what they don\u0027t know",
+    "option_d": "Both B and C",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Nehemiah rebuilt Jerusalem\u0027s walls (Nehemiah 4), how did workers defend against attacks?",
+    "option_a": "Worked with weapons nearby",
+    "option_b": "Set round-the-clock guards",
+    "option_c": "Half worked while half stood guard",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "In Paul\u0027s teaching about the resurrection body (1 Corinthians 15:42-44), how does he describe its transformation?",
+    "option_a": "Perishable to imperishable",
+    "option_b": "Dishonor to glory",
+    "option_c": "Weakness to power",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Elijah was taken to heaven (2 Kings 2:1-14), what did Elisha request as his inheritance?",
+    "option_a": "A portion of Elijah\u0027s wealth",
+    "option_b": "Authority over the prophets",
+    "option_c": "A double portion of Elijah\u0027s spirit",
+    "option_d": "The power to work miracles",
+    "answer": "option_c"
+  },
+  {
+    "question": "In Jesus\u0027 teaching about anxiety (Matthew 6:25-34), what example did He use to illustrate God\u0027s provision?",
+    "option_a": "The lilies of the field",
+    "option_b": "The sparrows of the air",
+    "option_c": "The grass of the field",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Paul wrote about spiritual warfare (2 Corinthians 10:3-5), what weapons did he say are not carnal?",
+    "option_a": "Divinely powerful for destruction of fortresses",
+    "option_b": "Capable of destroying arguments",
+    "option_c": "Able to take every thought captive",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "In the story of the bleeding woman (Mark 5:25-34), what did Jesus say healed her?",
+    "option_a": "His deliberate power",
+    "option_b": "Her faith",
+    "option_c": "The touch of His garment",
+    "option_d": "God\u0027s mercy",
+    "answer": "option_b"
+  },
+  {
+    "question": "When God tested Abraham with Isaac (Genesis 22), what did Abraham tell his servants before going up the mountain?",
+    "option_a": "We will return after worship",
+    "option_b": "Pray for God\u0027s provision",
+    "option_c": "God will provide the sacrifice",
+    "option_d": "Both A and C",
+    "answer": "option_d"
+  },
+  {
+    "question": "In Paul\u0027s teaching about love (1 Corinthians 13:13), what three virtues remain?",
+    "option_a": "Faith, hope and love",
+    "option_b": "Grace, mercy and peace",
+    "option_c": "Righteousness, joy and peace",
+    "option_d": "Wisdom, knowledge and faith",
+    "answer": "option_a"
+  },
+  {
+    "question": "When Jesus appeared to His disciples after the resurrection (John 20:19-23), what did He breathe on them saying?",
+    "option_a": "Peace be with you",
+    "option_b": "Receive the Holy Spirit",
+    "option_c": "As the Father sent me, I send you",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "In the Parable of the Ten Virgins (Matthew 25:1-13), why were the foolish virgins excluded from the wedding feast?",
+    "option_a": "They arrived late",
+    "option_b": "They had no oil for lamps",
+    "option_c": "They weren\u0027t properly dressed",
+    "option_d": "They didn\u0027t know the bridegroom",
+    "answer": "option_b"
+  },
+  {
+    "question": "When Paul addressed the Athenians (Acts 17:22-31), what altar inscription did he reference?",
+    "option_a": "To the Glory of Rome",
+    "option_b": "To an Unknown God",
+    "option_c": "To Zeus Almighty",
+    "option_d": "To the Divine Emperor",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the first man created by God?",
+    "option_a": "Noah",
+    "option_b": "Adam",
+    "option_c": "Abraham",
+    "option_d": "Moses",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which king had a dream interpreted by Daniel?",
+    "option_a": "Nebuchadnezzar",
+    "option_b": "Pharaoh",
+    "option_c": "Herod",
+    "option_d": "Ahab",
+    "answer": "option_a"
+  },
+  {
+    "question": "What was the name of Isaac\u0027s wife?",
+    "option_a": "Rachel",
+    "option_b": "Rebekah",
+    "option_c": "Leah",
+    "option_d": "Sarah",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book records the parting of the Red Sea?",
+    "option_a": "Genesis",
+    "option_b": "Exodus",
+    "option_c": "Leviticus",
+    "option_d": "Numbers",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who denied Jesus three times before the rooster crowed?",
+    "option_a": "Judas",
+    "option_b": "Peter",
+    "option_c": "Thomas",
+    "option_d": "John",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the forbidden fruit in the Garden of Eden?",
+    "option_a": "Apple",
+    "option_b": "Fig",
+    "option_c": "Pomegranate",
+    "option_d": "Not specified",
+    "answer": "option_d"
+  },
+  {
+    "question": "How many plagues struck Egypt before Pharaoh let the Israelites go?",
+    "option_a": "7",
+    "option_b": "10",
+    "option_c": "12",
+    "option_d": "3",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the mother of John the Baptist?",
+    "option_a": "Mary",
+    "option_b": "Elizabeth",
+    "option_c": "Anna",
+    "option_d": "Martha",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet was swallowed by a great fish?",
+    "option_a": "Jonah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Isaiah",
+    "answer": "option_a"
+  },
+  {
+    "question": "What is the shortest verse in the Bible?",
+    "option_a": "Love one another.",
+    "option_b": "Jesus wept.",
+    "option_c": "Pray without ceasing.",
+    "option_d": "Fear not.",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the first martyr of the Christian church?",
+    "option_a": "Paul",
+    "option_b": "Stephen",
+    "option_c": "Peter",
+    "option_d": "James",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was Jacob\u0027s name changed to after wrestling with God?",
+    "option_a": "Israel",
+    "option_b": "Judah",
+    "option_c": "Joseph",
+    "option_d": "Benjamin",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which disciple was a tax collector before following Jesus?",
+    "option_a": "Matthew",
+    "option_b": "Simon",
+    "option_c": "Andrew",
+    "option_d": "Bartholomew",
+    "answer": "option_a"
+  },
+  {
+    "question": "How many books are in the Pentateuch?",
+    "option_a": "3",
+    "option_b": "5",
+    "option_c": "7",
+    "option_d": "12",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the first king of Israel?",
+    "option_a": "David",
+    "option_b": "Solomon",
+    "option_c": "Saul",
+    "option_d": "Samuel",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which New Testament book contains the \u0027Armor of God\u0027 passage?",
+    "option_a": "Romans",
+    "option_b": "Ephesians",
+    "option_c": "Hebrews",
+    "option_d": "James",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was sold into slavery by his brothers?",
+    "option_a": "Moses",
+    "option_b": "Joseph",
+    "option_c": "Benjamin",
+    "option_d": "Isaac",
+    "answer": "option_b"
+  },
+  {
+    "question": "What language was most of the New Testament originally written in?",
+    "option_a": "Hebrew",
+    "option_b": "Latin",
+    "option_c": "Greek",
+    "option_d": "Aramaic",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which woman hid Israelite spies in Jericho?",
+    "option_a": "Ruth",
+    "option_b": "Rahab",
+    "option_c": "Deborah",
+    "option_d": "Esther",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many years did the Israelites wander in the wilderness?",
+    "option_a": "20",
+    "option_b": "30",
+    "option_c": "40",
+    "option_d": "70",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who rebuilt the walls of Jerusalem?",
+    "option_a": "Ezra",
+    "option_b": "Nehemiah",
+    "option_c": "Zerubbabel",
+    "option_d": "Daniel",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the \u0027Love Chapter\u0027 (1 Corinthians 13)?",
+    "option_a": "Romans",
+    "option_b": "Galatians",
+    "option_c": "1 Corinthians",
+    "option_d": "Ephesians",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who interpreted Pharaoh\u0027s dream about seven years of plenty and famine?",
+    "option_a": "Daniel",
+    "option_b": "Joseph",
+    "option_c": "Moses",
+    "option_d": "Samuel",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of Abraham\u0027s nephew?",
+    "option_a": "Isaac",
+    "option_b": "Ishmael",
+    "option_c": "Lot",
+    "option_d": "Jacob",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which prophet confronted King David after his sin with Bathsheba?",
+    "option_a": "Elijah",
+    "option_b": "Nathan",
+    "option_c": "Isaiah",
+    "option_d": "Jeremiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the first high priest of Israel?",
+    "option_a": "Aaron",
+    "option_b": "Moses",
+    "option_c": "Eleazar",
+    "option_d": "Melchizedek",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book records the story of Esther?",
+    "option_a": "Ruth",
+    "option_b": "Judges",
+    "option_c": "Esther",
+    "option_d": "Ezra",
+    "answer": "option_c"
+  },
+  {
+    "question": "How many people were saved on Noah\u0027s ark?",
+    "option_a": "4",
+    "option_b": "6",
+    "option_c": "8",
+    "option_d": "12",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who wrote most of the Psalms?",
+    "option_a": "Solomon",
+    "option_b": "Asaph",
+    "option_c": "David",
+    "option_d": "Moses",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which disciple doubted Jesus\u0027 resurrection until he saw Him?",
+    "option_a": "Peter",
+    "option_b": "John",
+    "option_c": "Thomas",
+    "option_d": "Andrew",
+    "answer": "option_c"
+  },
+  {
+    "question": "What was the occupation of Amos before he became a prophet?",
+    "option_a": "Fisherman",
+    "option_b": "Shepherd",
+    "option_c": "Tax collector",
+    "option_d": "Priest",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which king had the golden statue built that Shadrach, Meshach, and Abednego refused to worship?",
+    "option_a": "Darius",
+    "option_b": "Cyrus",
+    "option_c": "Nebuchadnezzar",
+    "option_d": "Belshazzar",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the mother of Samuel?",
+    "option_a": "Rebecca",
+    "option_b": "Hannah",
+    "option_c": "Leah",
+    "option_d": "Rachel",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which Gospel begins with \u0027In the beginning was the Word\u0027?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the first murderer in the Bible?",
+    "option_a": "Cain",
+    "option_b": "Abel",
+    "option_c": "Nimrod",
+    "option_d": "Lamech",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book comes after Acts in the New Testament?",
+    "option_a": "Romans",
+    "option_b": "James",
+    "option_c": "1 Corinthians",
+    "option_d": "Hebrews",
+    "answer": "option_a"
+  },
+  {
+    "question": "What was Paul\u0027s occupation?",
+    "option_a": "Fisherman",
+    "option_b": "Tax collector",
+    "option_c": "Tentmaker",
+    "option_d": "Scribe",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the prophet taken to heaven in a chariot of fire?",
+    "option_a": "Elisha",
+    "option_b": "Elijah",
+    "option_c": "Ezekiel",
+    "option_d": "Isaiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the Beatitudes?",
+    "option_a": "John",
+    "option_b": "Luke",
+    "option_c": "Mark",
+    "option_d": "Matthew",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the father of John the Baptist?",
+    "option_a": "Simeon",
+    "option_b": "Zechariah",
+    "option_c": "Joseph",
+    "option_d": "Eli",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many books are in the New Testament?",
+    "option_a": "21",
+    "option_b": "27",
+    "option_c": "39",
+    "option_d": "66",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the disciple Jesus loved?",
+    "option_a": "Peter",
+    "option_b": "John",
+    "option_c": "James",
+    "option_d": "Andrew",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which king wrote the book of Ecclesiastes?",
+    "option_a": "David",
+    "option_b": "Hezekiah",
+    "option_c": "Josiah",
+    "option_d": "Solomon",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the first Gentile converted to Christianity?",
+    "option_a": "Lydia",
+    "option_b": "Cornelius",
+    "option_c": "The Ethiopian eunuch",
+    "option_d": "Timothy",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet saw a valley of dry bones?",
+    "option_a": "Daniel",
+    "option_b": "Ezekiel",
+    "option_c": "Jeremiah",
+    "option_d": "Isaiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many days was Jonah in the belly of the great fish?",
+    "option_a": "1",
+    "option_b": "3",
+    "option_c": "7",
+    "option_d": "40",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the wife of Boaz?",
+    "option_a": "Esther",
+    "option_b": "Ruth",
+    "option_c": "Naomi",
+    "option_d": "Rahab",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of the fiery furnace?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Daniel",
+    "option_d": "Ezekiel",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who baptized Jesus?",
+    "option_a": "Peter",
+    "option_b": "John the Baptist",
+    "option_c": "Philip",
+    "option_d": "Andrew",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the sea Jesus walked on?",
+    "option_a": "Red Sea",
+    "option_b": "Dead Sea",
+    "option_c": "Sea of Tiberias",
+    "option_d": "Mediterranean Sea",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the Ten Commandments?",
+    "option_a": "Genesis",
+    "option_b": "Exodus",
+    "option_c": "Leviticus",
+    "option_d": "Deuteronomy",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the king when Jesus was born?",
+    "option_a": "Herod",
+    "option_b": "Pilate",
+    "option_c": "Caesar Augustus",
+    "option_d": "Nero",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which prophet was called the \u0027weeping prophet\u0027?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Daniel",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who replaced Judas Iscariot as an apostle?",
+    "option_a": "Barnabas",
+    "option_b": "Stephen",
+    "option_c": "Matthias",
+    "option_d": "Timothy",
+    "answer": "option_c"
+  },
+  {
+    "question": "What was the name of the garden where Jesus was arrested?",
+    "option_a": "Gethsemane",
+    "option_b": "Eden",
+    "option_c": "Olives",
+    "option_d": "Paradise",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book is the last book of the Old Testament?",
+    "option_a": "Zechariah",
+    "option_b": "Malachi",
+    "option_c": "Daniel",
+    "option_d": "Haggai",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the first judge of Israel?",
+    "option_a": "Gideon",
+    "option_b": "Samson",
+    "option_c": "Othniel",
+    "option_d": "Deborah",
+    "answer": "option_c"
+  },
+  {
+    "question": "How many books did Paul write in the New Testament?",
+    "option_a": "7",
+    "option_b": "9",
+    "option_c": "13",
+    "option_d": "15",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which prophet married a prostitute named Gomer?",
+    "option_a": "Hosea",
+    "option_b": "Amos",
+    "option_c": "Micah",
+    "option_d": "Jonah",
+    "answer": "option_a"
+  },
+  {
+    "question": "Who was the first king of the divided kingdom of Israel?",
+    "option_a": "Rehoboam",
+    "option_b": "Jeroboam",
+    "option_c": "Ahab",
+    "option_d": "Jehu",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of the Good Samaritan?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the father of the 12 tribes of Israel?",
+    "option_a": "Abraham",
+    "option_b": "Isaac",
+    "option_c": "Jacob",
+    "option_d": "Joseph",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which prophet saw a wheel within a wheel?",
+    "option_a": "Daniel",
+    "option_b": "Ezekiel",
+    "option_c": "Isaiah",
+    "option_d": "Zechariah",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many spies gave a good report about Canaan?",
+    "option_a": "2",
+    "option_b": "10",
+    "option_c": "12",
+    "option_d": "40",
+    "answer": "option_a"
+  },
+  {
+    "question": "Who was the author of the book of Hebrews?",
+    "option_a": "Paul",
+    "option_b": "Peter",
+    "option_c": "James",
+    "option_d": "Unknown",
+    "answer": "option_d"
+  },
+  {
+    "question": "Which king had his life extended by 15 years?",
+    "option_a": "David",
+    "option_b": "Solomon",
+    "option_c": "Hezekiah",
+    "option_d": "Josiah",
+    "answer": "option_c"
+  },
+  {
+    "question": "What was the name of the river Jesus was baptized in?",
+    "option_a": "Nile",
+    "option_b": "Euphrates",
+    "option_c": "Jordan",
+    "option_d": "Tigris",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the fruit of the Spirit?",
+    "option_a": "Romans",
+    "option_b": "1 Corinthians",
+    "option_c": "Galatians",
+    "option_d": "Ephesians",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the prophetess who helped lead Israel after Barak\u0027s victory?",
+    "option_a": "Miriam",
+    "option_b": "Deborah",
+    "option_c": "Huldah",
+    "option_d": "Anna",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many books are in the Bible?",
+    "option_a": "39",
+    "option_b": "49",
+    "option_c": "66",
+    "option_d": "73",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who wrote the book of Revelation?",
+    "option_a": "Paul",
+    "option_b": "Peter",
+    "option_c": "John",
+    "option_d": "James",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of Balaam and his talking donkey?",
+    "option_a": "Exodus",
+    "option_b": "Leviticus",
+    "option_c": "Numbers",
+    "option_d": "Deuteronomy",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the disciple who betrayed Jesus?",
+    "option_a": "Peter",
+    "option_b": "Judas Iscariot",
+    "option_c": "Thomas",
+    "option_d": "Matthew",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the place where Jesus was crucified?",
+    "option_a": "Mount Sinai",
+    "option_b": "Golgotha",
+    "option_c": "Gethsemane",
+    "option_d": "Bethlehem",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet was sawn in two?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Daniel",
+    "answer": "option_a"
+  },
+  {
+    "question": "Who was the first king of Babylon mentioned in the Bible?",
+    "option_a": "Nebuchadnezzar",
+    "option_b": "Belshazzar",
+    "option_c": "Darius",
+    "option_d": "Nimrod",
+    "answer": "option_d"
+  },
+  {
+    "question": "Which book contains the Sermon on the Mount?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_a"
+  },
+  {
+    "question": "Who was the mother of Jesus?",
+    "option_a": "Elizabeth",
+    "option_b": "Mary Magdalene",
+    "option_c": "Mary",
+    "option_d": "Salome",
+    "answer": "option_c"
+  },
+  {
+    "question": "How many Psalms are there?",
+    "option_a": "100",
+    "option_b": "119",
+    "option_c": "150",
+    "option_d": "151",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the Ethiopian eunuch baptized by Philip?",
+    "option_a": "Cornelius",
+    "option_b": "Simeon",
+    "option_c": "Lydia",
+    "option_d": "Not named",
+    "answer": "option_d"
+  },
+  {
+    "question": "Which book contains the creation account?",
+    "option_a": "Exodus",
+    "option_b": "Genesis",
+    "option_c": "Job",
+    "option_d": "Psalms",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the king when Daniel was thrown into the lions\u0027 den?",
+    "option_a": "Nebuchadnezzar",
+    "option_b": "Belshazzar",
+    "option_c": "Darius",
+    "option_d": "Cyrus",
+    "answer": "option_c"
+  },
+  {
+    "question": "What was the name of John the Baptist\u0027s father?",
+    "option_a": "Zechariah",
+    "option_b": "Simeon",
+    "option_c": "Joseph",
+    "option_d": "Eli",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book comes before Psalms in the Bible?",
+    "option_a": "Proverbs",
+    "option_b": "Job",
+    "option_c": "Esther",
+    "option_d": "Ecclesiastes",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the first woman created by God?",
+    "option_a": "Sarah",
+    "option_b": "Rebekah",
+    "option_c": "Eve",
+    "option_d": "Rachel",
+    "answer": "option_c"
+  },
+  {
+    "question": "How many commandments are there in the Ten Commandments?",
+    "option_a": "7",
+    "option_b": "10",
+    "option_c": "12",
+    "option_d": "15",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet was in the belly of a great fish for three days?",
+    "option_a": "Ezekiel",
+    "option_b": "Jonah",
+    "option_c": "Daniel",
+    "option_d": "Jeremiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the high priest during Jesus\u0027 trial?",
+    "option_a": "Annas",
+    "option_b": "Caiaphas",
+    "option_c": "Pilate",
+    "option_d": "Herod",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of the Exodus?",
+    "option_a": "Genesis",
+    "option_b": "Exodus",
+    "option_c": "Leviticus",
+    "option_d": "Numbers",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the father of Solomon?",
+    "option_a": "Saul",
+    "option_b": "David",
+    "option_c": "Rehoboam",
+    "option_d": "Hezekiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the sea that parted for the Israelites?",
+    "option_a": "Mediterranean Sea",
+    "option_b": "Red Sea",
+    "option_c": "Dead Sea",
+    "option_d": "Sea of Galilee",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which disciple was a fisherman?",
+    "option_a": "Matthew",
+    "option_b": "Judas",
+    "option_c": "Thomas",
+    "option_d": "Peter",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the king when Jesus was crucified?",
+    "option_a": "Herod Antipas",
+    "option_b": "Herod the Great",
+    "option_c": "Pontius Pilate",
+    "option_d": "Caesar Augustus",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book contains the story of the Tower of Babel?",
+    "option_a": "Genesis",
+    "option_b": "Exodus",
+    "option_c": "Leviticus",
+    "option_d": "Numbers",
+    "answer": "option_a"
+  },
+  {
+    "question": "Who was the prophet anointed by Elijah?",
+    "option_a": "Elisha",
+    "option_b": "Isaiah",
+    "option_c": "Jeremiah",
+    "option_d": "Amos",
+    "answer": "option_a"
+  },
+  {
+    "question": "How many days was Lazarus dead before Jesus raised him?",
+    "option_a": "1",
+    "option_b": "3",
+    "option_c": "4",
+    "option_d": "7",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book is the shortest in the Bible?",
+    "option_a": "Philemon",
+    "option_b": "2 John",
+    "option_c": "3 John",
+    "option_d": "Obadiah",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the wife of Isaac?",
+    "option_a": "Rachel",
+    "option_b": "Leah",
+    "option_c": "Rebekah",
+    "option_d": "Sarah",
+    "answer": "option_c"
+  },
+  {
+    "question": "What was the name of the mountain where Moses received the Ten Commandments?",
+    "option_a": "Mount Sinai",
+    "option_b": "Mount Zion",
+    "option_c": "Mount Carmel",
+    "option_d": "Mount Ararat",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which prophet confronted the prophets of Baal?",
+    "option_a": "Elisha",
+    "option_b": "Elijah",
+    "option_c": "Isaiah",
+    "option_d": "Jeremiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the author of the book of Acts?",
+    "option_a": "Paul",
+    "option_b": "Luke",
+    "option_c": "John",
+    "option_d": "Peter",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many books are in the Old Testament?",
+    "option_a": "27",
+    "option_b": "39",
+    "option_c": "46",
+    "option_d": "66",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the vision of the four horsemen?",
+    "option_a": "Daniel",
+    "option_b": "Ezekiel",
+    "option_c": "Zechariah",
+    "option_d": "Revelation",
+    "answer": "option_d"
+  },
+  {
+    "question": "What was the name of the river where Naaman was healed?",
+    "option_a": "Jordan",
+    "option_b": "Nile",
+    "option_c": "Euphrates",
+    "option_d": "Tigris",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book contains the story of the prodigal son?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the father of Ishmael?",
+    "option_a": "Abraham",
+    "option_b": "Isaac",
+    "option_c": "Jacob",
+    "option_d": "Lot",
+    "answer": "option_a"
+  },
+  {
+    "question": "How many baskets of leftovers were collected after Jesus fed the 5,000?",
+    "option_a": "7",
+    "option_b": "12",
+    "option_c": "5",
+    "option_d": "3",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of Samson?",
+    "option_a": "Exodus",
+    "option_b": "Judges",
+    "option_c": "1 Samuel",
+    "option_d": "2 Samuel",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the prophet who anointed David as king?",
+    "option_a": "Samuel",
+    "option_b": "Nathan",
+    "option_c": "Gad",
+    "option_d": "Elijah",
+    "answer": "option_a"
+  },
+  {
+    "question": "What was the name of the sea where Jesus calmed the storm?",
+    "option_a": "Red Sea",
+    "option_b": "Dead Sea",
+    "option_c": "Sea of Galilee",
+    "option_d": "Mediterranean Sea",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the burning bush?",
+    "option_a": "Genesis",
+    "option_b": "Exodus",
+    "option_c": "Leviticus",
+    "option_d": "Numbers",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the king when Daniel interpreted the handwriting on the wall?",
+    "option_a": "Nebuchadnezzar",
+    "option_b": "Belshazzar",
+    "option_c": "Darius",
+    "option_d": "Cyrus",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many books did Moses write?",
+    "option_a": "1",
+    "option_b": "3",
+    "option_c": "5",
+    "option_d": "7",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which prophet saw a flying scroll?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Zechariah",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the mother of James and John?",
+    "option_a": "Mary Magdalene",
+    "option_b": "Salome",
+    "option_c": "Elizabeth",
+    "option_d": "Joanna",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the city where Jesus was born?",
+    "option_a": "Nazareth",
+    "option_b": "Jerusalem",
+    "option_c": "Bethlehem",
+    "option_d": "Capernaum",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the Lord\u0027s Prayer?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_a"
+  },
+  {
+    "question": "Who was the first Gentile to hear the gospel from Peter?",
+    "option_a": "Lydia",
+    "option_b": "Cornelius",
+    "option_c": "The Ethiopian eunuch",
+    "option_d": "Timothy",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many chapters are in the book of Psalms?",
+    "option_a": "100",
+    "option_b": "119",
+    "option_c": "150",
+    "option_d": "151",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which prophet was called from the womb?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Daniel",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the wife of Uriah whom David married?",
+    "option_a": "Abigail",
+    "option_b": "Bathsheba",
+    "option_c": "Michal",
+    "option_d": "Tamar",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the valley where David fought Goliath?",
+    "option_a": "Valley of Elah",
+    "option_b": "Kidron Valley",
+    "option_c": "Valley of Jehoshaphat",
+    "option_d": "Valley of Hinnom",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book contains the story of Ruth?",
+    "option_a": "Judges",
+    "option_b": "Ruth",
+    "option_c": "1 Samuel",
+    "option_d": "Esther",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the father of Joseph (husband of Mary)?",
+    "option_a": "Jacob",
+    "option_b": "Heli",
+    "option_c": "David",
+    "option_d": "Not named",
+    "answer": "option_a"
+  },
+  {
+    "question": "How many years did Solomon build the temple?",
+    "option_a": "7",
+    "option_b": "10",
+    "option_c": "12",
+    "option_d": "20",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which prophet saw a man with a measuring line?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Zechariah",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the author of the book of James?",
+    "option_a": "James the son of Zebedee",
+    "option_b": "James the son of Alphaeus",
+    "option_c": "James the brother of Jesus",
+    "option_d": "James the Less",
+    "answer": "option_c"
+  },
+  {
+    "question": "What was the name of the disciple who replaced Judas?",
+    "option_a": "Barnabas",
+    "option_b": "Matthias",
+    "option_c": "Stephen",
+    "option_d": "Timothy",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of the wise men visiting Jesus?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_a"
+  },
+  {
+    "question": "Who was the king when Esther was queen?",
+    "option_a": "Nebuchadnezzar",
+    "option_b": "Belshazzar",
+    "option_c": "Xerxes",
+    "option_d": "Darius",
+    "answer": "option_c"
+  },
+  {
+    "question": "How many times did Elijah pour water on the sacrifice before fire fell?",
+    "option_a": "3",
+    "option_b": "7",
+    "option_c": "12",
+    "option_d": "40",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the healing of Naaman?",
+    "option_a": "1 Kings",
+    "option_b": "2 Kings",
+    "option_c": "1 Chronicles",
+    "option_d": "2 Chronicles",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the prophet who married Gomer?",
+    "option_a": "Hosea",
+    "option_b": "Amos",
+    "option_c": "Micah",
+    "option_d": "Jonah",
+    "answer": "option_a"
+  },
+  {
+    "question": "What was the name of the island where John was exiled?",
+    "option_a": "Cyprus",
+    "option_b": "Crete",
+    "option_c": "Patmos",
+    "option_d": "Malta",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the feeding of the 5,000?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the first person to see the risen Christ?",
+    "option_a": "Peter",
+    "option_b": "Mary Magdalene",
+    "option_c": "John",
+    "option_d": "Thomas",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many sons did Jacob have?",
+    "option_a": "10",
+    "option_b": "12",
+    "option_c": "13",
+    "option_d": "14",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of the golden calf?",
+    "option_a": "Genesis",
+    "option_b": "Exodus",
+    "option_c": "Leviticus",
+    "option_d": "Numbers",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the prophet who confronted David about his sin?",
+    "option_a": "Samuel",
+    "option_b": "Nathan",
+    "option_c": "Gad",
+    "option_d": "Ahijah",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the tree in the Garden of Eden?",
+    "option_a": "Tree of Life",
+    "option_b": "Tree of Knowledge",
+    "option_c": "Tree of Good and Evil",
+    "option_d": "Both A and B",
+    "answer": "option_d"
+  },
+  {
+    "question": "Which book contains the story of the transfiguration?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "How many books are in the Minor Prophets?",
+    "option_a": "10",
+    "option_b": "12",
+    "option_c": "14",
+    "option_d": "16",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet saw a scroll with writing on both sides?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Zechariah",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the author of the book of Philemon?",
+    "option_a": "Paul",
+    "option_b": "Peter",
+    "option_c": "John",
+    "option_d": "James",
+    "answer": "option_a"
+  },
+  {
+    "question": "What was the name of the place where the Holy Spirit descended at Pentecost?",
+    "option_a": "Upper Room",
+    "option_b": "Temple",
+    "option_c": "Mount of Olives",
+    "option_d": "Gethsemane",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book contains the story of the stoning of Stephen?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "Acts",
+    "answer": "option_d"
+  },
+  {
+    "question": "How many chapters are in the book of Revelation?",
+    "option_a": "12",
+    "option_b": "22",
+    "option_c": "24",
+    "option_d": "66",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet was called the \u0027son of man\u0027?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Daniel",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the first king of Judah?",
+    "option_a": "David",
+    "option_b": "Solomon",
+    "option_c": "Rehoboam",
+    "option_d": "Asa",
+    "answer": "option_c"
+  },
+  {
+    "question": "What was the name of the well where Jesus met the Samaritan woman?",
+    "option_a": "Jacob\u0027s Well",
+    "option_b": "Bethesda",
+    "option_c": "Siloam",
+    "option_d": "En Gedi",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book contains the story of the conversion of Saul?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "Acts",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the mother of Joseph and Benjamin?",
+    "option_a": "Leah",
+    "option_b": "Rachel",
+    "option_c": "Bilhah",
+    "option_d": "Zilpah",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many years did David reign?",
+    "option_a": "20",
+    "option_b": "30",
+    "option_c": "40",
+    "option_d": "50",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the writing on the wall?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Daniel",
+    "option_d": "Ezekiel",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the prophet who anointed Jehu as king?",
+    "option_a": "Elijah",
+    "option_b": "Elisha",
+    "option_c": "Isaiah",
+    "option_d": "Jeremiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the river where Jesus was baptized?",
+    "option_a": "Nile",
+    "option_b": "Euphrates",
+    "option_c": "Jordan",
+    "option_d": "Tigris",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the healing of the paralytic lowered through the roof?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the father of Samson?",
+    "option_a": "Elkanah",
+    "option_b": "Manoah",
+    "option_c": "Boaz",
+    "option_d": "Jephthah",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many books are in the Major Prophets?",
+    "option_a": "4",
+    "option_b": "5",
+    "option_c": "6",
+    "option_d": "7",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet saw a plumb line?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Amos",
+    "option_d": "Zechariah",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the author of the book of Jude?",
+    "option_a": "Jude the apostle",
+    "option_b": "Jude the brother of James",
+    "option_c": "Jude the brother of Jesus",
+    "option_d": "Jude of Jerusalem",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the mountain where Abraham offered Isaac?",
+    "option_a": "Mount Sinai",
+    "option_b": "Mount Moriah",
+    "option_c": "Mount Carmel",
+    "option_d": "Mount Zion",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of the healing of blind Bartimaeus?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the mother of Solomon?",
+    "option_a": "Bathsheba",
+    "option_b": "Abigail",
+    "option_c": "Michal",
+    "option_d": "Haggith",
+    "answer": "option_a"
+  },
+  {
+    "question": "How many years did Solomon reign?",
+    "option_a": "20",
+    "option_b": "30",
+    "option_c": "40",
+    "option_d": "50",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the valley of dry bones?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Daniel",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the prophet who confronted Ahab and Jezebel?",
+    "option_a": "Elisha",
+    "option_b": "Elijah",
+    "option_c": "Micaiah",
+    "option_d": "Obadiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the sea where Peter walked on water?",
+    "option_a": "Red Sea",
+    "option_b": "Dead Sea",
+    "option_c": "Sea of Galilee",
+    "option_d": "Mediterranean Sea",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the conversion of Cornelius?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "Acts",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the father of Esau and Jacob?",
+    "option_a": "Abraham",
+    "option_b": "Isaac",
+    "option_c": "Ishmael",
+    "option_d": "Lot",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many books are in the Gospels?",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "5",
+    "option_d": "7",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet saw a boiling pot?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Amos",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the author of the book of 2 Peter?",
+    "option_a": "Peter",
+    "option_b": "Paul",
+    "option_c": "John",
+    "option_d": "James",
+    "answer": "option_a"
+  },
+  {
+    "question": "What was the name of the tree Zacchaeus climbed?",
+    "option_a": "Fig tree",
+    "option_b": "Sycamore tree",
+    "option_c": "Olive tree",
+    "option_d": "Oak tree",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of the raising of Lazarus?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_d"
+  },
+  {
+    "question": "How many years did the Israelites spend in Egypt?",
+    "option_a": "210",
+    "option_b": "400",
+    "option_c": "430",
+    "option_d": "490",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the fall of Jericho?",
+    "option_a": "Exodus",
+    "option_b": "Leviticus",
+    "option_c": "Numbers",
+    "option_d": "Joshua",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the prophet who saw the new temple?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Daniel",
+    "answer": "option_c"
+  },
+  {
+    "question": "What was the name of the place where Jesus was tempted?",
+    "option_a": "Judean wilderness",
+    "option_b": "Sinai desert",
+    "option_c": "Negev",
+    "option_d": "Arabah",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book contains the story of the woman at the well?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the father of Cain and Abel?",
+    "option_a": "Adam",
+    "option_b": "Seth",
+    "option_c": "Noah",
+    "option_d": "Enoch",
+    "answer": "option_a"
+  },
+  {
+    "question": "How many books are in the Pauline Epistles?",
+    "option_a": "10",
+    "option_b": "13",
+    "option_c": "14",
+    "option_d": "16",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet saw a lampstand and two olive trees?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Zechariah",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the author of the book of 1 John?",
+    "option_a": "John the apostle",
+    "option_b": "John the Baptist",
+    "option_c": "John Mark",
+    "option_d": "John of Patmos",
+    "answer": "option_a"
+  },
+  {
+    "question": "What was the name of the river in Revelation flowing from God\u0027s throne?",
+    "option_a": "Jordan",
+    "option_b": "Euphrates",
+    "option_c": "River of Life",
+    "option_d": "Tigris",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the rich young ruler?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the mother of Timothy?",
+    "option_a": "Lois",
+    "option_b": "Eunice",
+    "option_c": "Lydia",
+    "option_d": "Priscilla",
+    "answer": "option_b"
+  },
+  {
+    "question": "How many years did the Israelites serve the Philistines before Samson\u0027s deliverance?",
+    "option_a": "20",
+    "option_b": "30",
+    "option_c": "40",
+    "option_d": "50",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the bronze serpent?",
+    "option_a": "Exodus",
+    "option_b": "Leviticus",
+    "option_c": "Numbers",
+    "option_d": "Deuteronomy",
+    "answer": "option_c"
+  },
+  {
+    "question": "Who was the prophet who married a widow?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Hosea",
+    "answer": "option_d"
+  },
+  {
+    "question": "What was the name of the city where Paul was converted?",
+    "option_a": "Jerusalem",
+    "option_b": "Damascus",
+    "option_c": "Antioch",
+    "option_d": "Tarsus",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which book contains the story of the wise and foolish builders?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the father of David?",
+    "option_a": "Jesse",
+    "option_b": "Saul",
+    "option_c": "Jonathan",
+    "option_d": "Obadiah",
+    "answer": "option_a"
+  },
+  {
+    "question": "How many books are in the General Epistles?",
+    "option_a": "7",
+    "option_b": "8",
+    "option_c": "9",
+    "option_d": "10",
+    "answer": "option_b"
+  },
+  {
+    "question": "Which prophet saw a sickle?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Amos",
+    "option_d": "Zechariah",
+    "answer": "option_d"
+  },
+  {
+    "question": "What was the name of the tree that withered when Jesus cursed it?",
+    "option_a": "Fig tree",
+    "option_b": "Olive tree",
+    "option_c": "Sycamore tree",
+    "option_d": "Oak tree",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book contains the story of the magi?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_a"
+  },
+  {
+    "question": "Who was the mother of John Mark?",
+    "option_a": "Mary",
+    "option_b": "Elizabeth",
+    "option_c": "Salome",
+    "option_d": "Joanna",
+    "answer": "option_a"
+  },
+  {
+    "question": "How many years did the Israelites serve the Philistines in Samson\u0027s time?",
+    "option_a": "20",
+    "option_b": "30",
+    "option_c": "40",
+    "option_d": "50",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the manna from heaven?",
+    "option_a": "Genesis",
+    "option_b": "Exodus",
+    "option_c": "Leviticus",
+    "option_d": "Numbers",
+    "answer": "option_b"
+  },
+  {
+    "question": "Who was the prophet who anointed Hazael king of Aram?",
+    "option_a": "Elijah",
+    "option_b": "Elisha",
+    "option_c": "Isaiah",
+    "option_d": "Jeremiah",
+    "answer": "option_b"
+  },
+  {
+    "question": "What was the name of the city where Paul was born?",
+    "option_a": "Jerusalem",
+    "option_b": "Damascus",
+    "option_c": "Tarsus",
+    "option_d": "Antioch",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which book contains the story of the rich man and Lazarus?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "John",
+    "answer": "option_c"
+  },
+  {
+    "question": "Which prophet saw a flying sickle?",
+    "option_a": "Isaiah",
+    "option_b": "Jeremiah",
+    "option_c": "Ezekiel",
+    "option_d": "Zechariah",
+    "answer": "option_d"
+  },
+  {
+    "question": "Who was the author of the book of 3 John?",
+    "option_a": "John the apostle",
+    "option_b": "John the Baptist",
+    "option_c": "John Mark",
+    "option_d": "John of Patmos",
+    "answer": "option_a"
+  },
+  {
+    "question": "What was the name of the valley where Ezekiel prophesied?",
+    "option_a": "Valley of Dry Bones",
+    "option_b": "Kidron Valley",
+    "option_c": "Valley of Jehoshaphat",
+    "option_d": "Valley of Hinnom",
+    "answer": "option_a"
+  },
+  {
+    "question": "Which book contains the story of the healing of the centurion\u0027s servant?",
+    "option_a": "Matthew",
+    "option_b": "Mark",
+    "option_c": "Luke",
+    "option_d": "All of the above",
+    "answer": "option_d"
+  },
+  {
+    "question": "In the Parable of the Good Samaritan (Luke 10:25-37), a lawyer tested Jesus by asking how to inherit eternal life. After establishing the command to love God and neighbor, the lawyer asked \u0027Who is my neighbor?\u0027 Jesus responded with a story about a traveler attacked by robbers. When Jesus asked which character proved neighbor to the victim, what was the lawyer forced to acknowledge about the unlikely hero?",
+    "option_a": "The priest who crossed the road",
+    "option_b": "The Levite who avoided the scene",
+    "option_c": "The Samaritan who showed mercy",
+    "option_d": "The innkeeper who provided shelter",
+    "answer": "option_c"
+  },
+  {
+    "question": "During Paul\u0027s shipwreck journey to Rome (Acts 27:13-44), after two weeks of violent storms without food, Paul stood before 276 terrified passengers and recounted his angelic visitation: \u0027God has granted safety to all sailing with you.\u0027 What specific instruction did Paul give immediately after declaring their survival?",
+    "option_a": "Lighten the ship by throwing cargo overboard",
+    "option_b": "Cut away the lifeboats to prevent desertion",
+    "option_c": "Everyone must eat to regain strength",
+    "option_d": "Anchor near land to prevent drifting",
+    "answer": "option_c"
+  },
+  {
+    "question": "In the dramatic confrontation on Mount Carmel (1 Kings 18:20-40), Elijah challenged 450 prophets of Baal to a divine duel. After their failed attempts to summon fire, Elijah rebuilt God\u0027s altar with twelve stones, drenched it with water, and prayed: \u0027Answer me, O Lord!\u0027 What supernatural phenomenon immediately followed his prayer?",
+    "option_a": "Lightning struck the altar",
+    "option_b": "Fire consumed everything including the water",
+    "option_c": "An earthquake opened the ground",
+    "option_d": "A whirlwind descended from heaven",
+    "answer": "option_b"
+  },
+  {
+    "question": "When Jesus healed the paralytic lowered through a roof (Mark 2:1-12), His controversial declaration \u0027Your sins are forgiven\u0027 provoked accusations of blasphemy from religious leaders. To demonstrate His authority to forgive sins, what visible miracle did Jesus perform before the crowd?",
+    "option_a": "Healed the man\u0027s withered hand",
+    "option_b": "Restored a blind man\u0027s sight",
+    "option_c": "Commanded the paralytic to walk",
+    "option_d": "Cast out a demon publicly",
+    "answer": "option_c"
+  },
+  {
+    "question": "In Nebuchadnezzar\u0027s fiery furnace ordeal (Daniel 3:13-27), when Shadrach, Meshach and Abednego refused to worship the golden statue, the furious king threatened: \u0027What god will deliver you from my hand?\u0027 What miraculous sight caused Nebuchadnezzar to declare blessings on their God?",
+    "option_a": "The fire consumed only their bonds",
+    "option_b": "A fourth figure walked with them unharmed",
+    "option_c": "Angels formed a protective barrier",
+    "option_d": "The statue melted before their eyes",
+    "answer": "option_b"
+  },
+  {
+    "question": "During Jesus\u0027 trial before Pilate (John 18:33-38), the Roman governor asked: \u0027Are you the King of the Jews?\u0027 Jesus responded: \u0027My kingdom is not of this world. For this purpose I was born...\u0027 What did Jesus identify as the essential purpose of His incarnation?",
+    "option_a": "To overthrow Roman oppression",
+    "option_b": "To bear witness to the truth",
+    "option_c": "To establish a new temple",
+    "option_d": "To fulfill Messianic prophecies",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Joshua\u0027s conquest of Jericho (Joshua 6:1-20), God prescribed an unconventional battle strategy involving seven days of silent marching followed by shouts and trumpet blasts. What specific restriction did God place on the spoils of victory that Achan later violated?",
+    "option_a": "All gold must be given to priests",
+    "option_b": "The city must remain uninhabited",
+    "option_c": "Everything was devoted to destruction",
+    "option_d": "Livestock must be sacrificed",
+    "answer": "option_c"
+  },
+  {
+    "question": "When Jesus encountered Zacchaeus in Jericho (Luke 19:1-10), the tax collector promised: \u0027Half my goods I give to the poor. If I defrauded anyone, I restore fourfold.\u0027 What did Jesus declare about Zacchaeus\u0027 spiritual status after this repentance?",
+    "option_a": "He would become an apostle",
+    "option_b": "Salvation had come to his house",
+    "option_c": "His sins were forgiven completely",
+    "option_d": "He exemplified kingdom righteousness",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Paul\u0027s Mars Hill address (Acts 17:22-31), he referenced Athenian worship of an \u0027Unknown God\u0027 before declaring: \u0027The God who made the world... does not live in temples made by man.\u0027 What urgent command did Paul issue regarding humanity\u0027s spiritual condition?",
+    "option_a": "Repent for judgment is coming",
+    "option_b": "Abandon your worthless idols",
+    "option_c": "Study the Scriptures diligently",
+    "option_d": "Be baptized for forgiveness",
+    "answer": "option_a"
+  },
+  {
+    "question": "During Solomon\u0027s judgment of two prostitutes (1 Kings 3:16-28), both women claimed maternity of a living baby after another infant died in the night. What shocking order did Solomon give that revealed the true mother\u0027s heart?",
+    "option_a": "Divide the living child with a sword",
+    "option_b": "Require DNA testing",
+    "option_c": "Imprison both women",
+    "option_d": "Consult the priests for divination",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Jesus\u0027 Olivet Discourse (Matthew 24:3-14), when disciples asked about signs of His return, He warned: \u0027Many will come in my name... you will hear of wars... famines... earthquakes.\u0027 What did Jesus identify as the most dangerous threat to believers?",
+    "option_a": "False prophets leading many astray",
+    "option_b": "Persecution from authorities",
+    "option_c": "Love growing cold in believers",
+    "option_d": "Natural disasters increasing",
+    "answer": "option_a"
+  },
+  {
+    "question": "When Daniel interpreted Nebuchadnezzar\u0027s dream of a giant statue (Daniel 2:31-45), he described four successive kingdoms represented by different metals. What catastrophic event did Daniel say would destroy all earthly kingdoms?",
+    "option_a": "A stone cut without hands",
+    "option_b": "A flood of divine judgment",
+    "option_c": "Fire from heaven",
+    "option_d": "An angelic army",
+    "answer": "option_a"
+  },
+  {
+    "question": "In the Upper Room before His arrest (John 13:1-17), Jesus performed the menial task of washing disciples\u0027 feet. When Peter protested, Jesus warned: \u0027Unless I wash you, you have no share with me.\u0027 What spiritual principle was Jesus illustrating through this act?",
+    "option_a": "The importance of servant leadership",
+    "option_b": "The cleansing of regeneration",
+    "option_c": "Mutual submission in community",
+    "option_d": "Humility as the path to greatness",
+    "answer": "option_b"
+  },
+  {
+    "question": "During Paul\u0027s defense before Agrippa (Acts 26:1-23), he recounted his Damascus Road conversion when Jesus declared: \u0027I am sending you to open their eyes... that they may receive forgiveness.\u0027 What specific group did Jesus commission Paul to reach?",
+    "option_a": "Jewish religious leaders",
+    "option_b": "Gentiles and kings",
+    "option_c": "Roman authorities",
+    "option_d": "Greek philosophers",
+    "answer": "option_b"
+  },
+  {
+    "question": "In the healing of Naaman\u0027s leprosy (2 Kings 5:1-14), the Syrian commander became furious when Elisha instructed him to wash in the Jordan River. What critical perspective shift allowed Naaman to receive his miracle?",
+    "option_a": "Recognizing Israel\u0027s God as supreme",
+    "option_b": "Humbling himself as a servant",
+    "option_c": "Obeying despite cultural offense",
+    "option_d": "Trusting his servants\u0027 counsel",
+    "answer": "option_d"
+  },
+  {
+    "question": "When Jesus appeared to Thomas after resurrection (John 20:24-29), He invited the doubting disciple to examine His wounds. What profound declaration did Thomas make that established Christ\u0027s divinity?",
+    "option_a": "You are truly the Messiah",
+    "option_b": "My Lord and my God!",
+    "option_c": "Blessed are those who believe",
+    "option_d": "Now I know you live forever",
+    "answer": "option_b"
+  },
+  {
+    "question": "In Solomon\u0027s dedication of the Temple (1 Kings 8:22-53), his prayer emphasized God\u0027s covenant faithfulness. What specific provision did Solomon request for repentant exiles who prayed toward Jerusalem?",
+    "option_a": "Restoration to their homeland",
+    "option_b": "Divine protection from enemies",
+    "option_c": "Hear their prayers in heaven",
+    "option_d": "Annual pilgrimage rights",
+    "answer": "option_c"
+  },
+  {
+    "question": "During the Last Supper (Luke 22:14-23), Jesus transformed Passover elements into new covenant symbols. What did the cup of wine specifically represent in His teaching?",
+    "option_a": "The blood sealing the new covenant",
+    "option_b": "The joy of kingdom celebration",
+    "option_c": "The suffering He would endure",
+    "option_d": "The fellowship of believers",
+    "answer": "option_a"
+  },
+  {
+    "question": "In Peter\u0027s prison escape (Acts 12:1-11), an angel struck Peter\u0027s chains and led him past guards. What humorous detail reveals the church\u0027s disbelief when Rhoda announced Peter at the door?",
+    "option_a": "They accused her of seeing his ghost",
+    "option_b": "They kept praying for his release",
+    "option_c": "They argued about who should answer",
+    "option_d": "They searched for the angel",
+    "answer": "option_a"
+  },
+  {
+    "question": "When God tested Abraham with Isaac (Genesis 22:1-18), the patriarch confidently told servants: \u0027We will worship and return to you.\u0027 What theological foundation made this statement possible despite God\u0027s command?",
+    "option_a": "Belief in resurrection power",
+    "option_b": "Trust in God\u0027s provision",
+    "option_c": "Knowledge of substitutionary sacrifice",
+    "option_d": "Assurance of God\u0027s covenant",
+    "answer": "option_a"
+  }
+]
