@@ -6,10 +6,6 @@ package com.nextinnomind.biblequizapp;
  */
 public class Launcher {
     public static void main(String[] args) {
-        // Set JavaFX system properties to avoid module issues
-        System.setProperty("javafx.preloader", "");
-        System.setProperty("java.awt.headless", "false");
-
         // Launch the actual JavaFX application
         biblequizapp.main(args);
     }

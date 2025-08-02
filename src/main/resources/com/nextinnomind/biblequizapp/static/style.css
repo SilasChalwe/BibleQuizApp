@@ -667,8 +667,8 @@
     -fx-stroke-width: 6;
     -fx-fill: transparent;
     -fx-stroke-line-cap: round;
-    /* Initial stroke color */
-    -fx-stroke: #e74c3c;
+    /* Initial stroke color -fx-stroke: #e74c3c;*/
+
 }
 
 /* Score text styles */

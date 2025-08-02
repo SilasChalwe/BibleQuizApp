@@ -1,6 +1,9 @@
 package com.nextinnomind.biblequizapp.controller;
 
-import com.nextinnomind.biblequizapp.utils.*;
+import com.nextinnomind.biblequizapp.AppLoader.DesktopViewLoader;
+import com.nextinnomind.biblequizapp.AppLoader.JsonDataLoader;
+import com.nextinnomind.biblequizapp.AppLoader.MobileViewLoader;
+import com.nextinnomind.biblequizapp.AppManager.ViewModeSelectorManager;
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -32,7 +35,7 @@ public class LevelsViewController {
     public static int CURRENT_LEVEL = 1;
     private int highestUnlockedLevel = 1;
 
-    private final ViewModeSelector viewModeSelector = new ViewModeSelector();
+    private final ViewModeSelectorManager viewModeSelectorManager = new ViewModeSelectorManager();
 
     @FXML
     public void initialize() {
@@ -204,7 +207,7 @@ private VBox buildLevelCard(int level) {
         try {
             Stage currentStage = (Stage) backButton.getScene().getWindow();
             String fxmlPath = "/com/nextinnomind/biblequizapp/views/quiz-view.fxml";
-            String viewMode = viewModeSelector.getViewMode();
+            String viewMode = viewModeSelectorManager.getViewMode();
 
             if ("mobile".equalsIgnoreCase(viewMode)) {
                 MobileViewLoader.load(currentStage, fxmlPath);
@@ -222,7 +225,7 @@ private VBox buildLevelCard(int level) {
         logger.info("Back button clicked");
         try {
             Stage currentStage = (Stage) backButton.getScene().getWindow();
-            String viewMode = viewModeSelector.getViewMode();
+            String viewMode = viewModeSelectorManager.getViewMode();
             if ("mobile".equalsIgnoreCase(viewMode)) {
                 MobileViewLoader.load(currentStage, "/com/nextinnomind/biblequizapp/views/onboarding-view.fxml");
             } else {

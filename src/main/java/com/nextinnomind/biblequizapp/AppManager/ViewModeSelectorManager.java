@@ -11,13 +11,13 @@
 //import java.util.Optional;
 //import java.util.prefs.Preferences;
 //
-//public class ViewModeSelector {
+//public class ViewModeSelectorManager {
 //
 //    private static final String PREF_KEY = "app_view_mode";
 //    private static final String VIEW_MOBILE = "mobile";
 //    private static final String VIEW_DESKTOP = "desktop";
 //
-//    private final Preferences prefs = Preferences.userNodeForPackage(ViewModeSelector.class);
+//    private final Preferences prefs = Preferences.userNodeForPackage(ViewModeSelectorManager.class);
 //
 //    /**
 //     * Returns the selected view mode ("mobile" or "desktop").
@@ -92,7 +92,7 @@
 
 
 
-package com.nextinnomind.biblequizapp.utils;
+package com.nextinnomind.biblequizapp.AppManager;
 
 import javafx.geometry.Rectangle2D;
 import javafx.scene.control.Alert;
@@ -105,13 +105,13 @@ import javafx.stage.StageStyle;
 import java.util.Optional;
 import java.util.prefs.Preferences;
 
-public class ViewModeSelector {
+public class ViewModeSelectorManager {
 
     private static final String PREF_KEY = "app_view_mode";
     private static final String VIEW_MOBILE = "mobile";
     private static final String VIEW_DESKTOP = "desktop";
 
-    private final Preferences prefs = Preferences.userNodeForPackage(ViewModeSelector.class);
+    private final Preferences prefs = Preferences.userNodeForPackage(ViewModeSelectorManager.class);
 
     /**
      * Returns the selected view mode ("mobile" or "desktop").

@@ -4,10 +4,10 @@
 ////import com.nextinnomind.biblequizapp.model.LevelScore;
 ////import com.nextinnomind.biblequizapp.model.OpenedLevel;
 ////import com.nextinnomind.biblequizapp.model.Question;
-////import com.nextinnomind.biblequizapp.utils.DesktopViewLoader;
-////import com.nextinnomind.biblequizapp.utils.JsonDataLoader;
-////import com.nextinnomind.biblequizapp.utils.MobileViewLoader;
-////import com.nextinnomind.biblequizapp.utils.ViewModeSelector;
+////import com.nextinnomind.biblequizapp.AppLoader.DesktopViewLoader;
+////import com.nextinnomind.biblequizapp.AppLoader.JsonDataLoader;
+////import com.nextinnomind.biblequizapp.AppLoader.MobileViewLoader;
+////import com.nextinnomind.biblequizapp.AppManager.ViewModeSelectorManager;
 ////import javafx.animation.KeyFrame;
 ////import javafx.animation.KeyValue;
 ////import javafx.animation.Timeline;
@@ -59,7 +59,7 @@
 ////
 ////    private static LevelScore levelScore;
 ////    //public static LevelScore NEW_UNSAVED = levelScore;
-////    private final ViewModeSelector viewModeSelector = new ViewModeSelector();
+////    private final ViewModeSelectorManager viewModeSelectorManager = new ViewModeSelectorManager();
 ////
 ////    public QuizViewController() {
 ////
@@ -345,7 +345,7 @@
 ////            Stage stage = (Stage) backButton.getScene().getWindow();
 ////
 ////            String scoreViewPath = "/com/nextinnomind/biblequizapp/views/score-view.fxml";
-////            String viewMode = viewModeSelector.getViewMode();
+////            String viewMode = viewModeSelectorManager.getViewMode();
 ////
 ////            if ("mobile".equalsIgnoreCase(viewMode)) {
 ////                MobileViewLoader.load(stage, scoreViewPath);
@@ -366,7 +366,7 @@
 ////            Stage stage = (Stage) backButton.getScene().getWindow();
 ////
 ////            String levelsViewPath = "/com/nextinnomind/biblequizapp/views/levels-view.fxml";
-////            String viewMode = viewModeSelector.getViewMode();
+////            String viewMode = viewModeSelectorManager.getViewMode();
 ////
 ////            if ("mobile".equalsIgnoreCase(viewMode)) {
 ////                MobileViewLoader.load(stage, levelsViewPath);
@@ -404,11 +404,11 @@
 //
 //import com.nextinnomind.biblequizapp.model.LevelScore;
 //import com.nextinnomind.biblequizapp.model.Question;
-//import com.nextinnomind.biblequizapp.utils.DesktopViewLoader;
-//import com.nextinnomind.biblequizapp.utils.JsonDataLoader;
-//import com.nextinnomind.biblequizapp.utils.MobileViewLoader;
+//import com.nextinnomind.biblequizapp.AppLoader.DesktopViewLoader;
+//import com.nextinnomind.biblequizapp.AppLoader.JsonDataLoader;
+//import com.nextinnomind.biblequizapp.AppLoader.MobileViewLoader;
 //import com.nextinnomind.biblequizapp.utils.SoundPlayer;
-//import com.nextinnomind.biblequizapp.utils.ViewModeSelector;
+//import com.nextinnomind.biblequizapp.AppManager.ViewModeSelectorManager;
 //import javafx.animation.KeyFrame;
 //import javafx.animation.KeyValue;
 //import javafx.animation.Timeline;
@@ -456,7 +456,7 @@
 //    private final AtomicBoolean questionAnsweredAtomic = new AtomicBoolean(false);
 //
 //    private static LevelScore levelScore;
-//    private final ViewModeSelector viewModeSelector = new ViewModeSelector();
+//    private final ViewModeSelectorManager viewModeSelectorManager = new ViewModeSelectorManager();
 //
 //    public QuizViewController() {}
 //
@@ -690,7 +690,7 @@
 //        try {
 //            Stage stage = (Stage) backButton.getScene().getWindow();
 //            String path = "/com/nextinnomind/biblequizapp/views/score-view.fxml";
-//            String viewMode = viewModeSelector.getViewMode();
+//            String viewMode = viewModeSelectorManager.getViewMode();
 //
 //            if ("mobile".equalsIgnoreCase(viewMode)) {
 //                MobileViewLoader.load(stage, path);
@@ -710,7 +710,7 @@
 //        try {
 //            Stage stage = (Stage) backButton.getScene().getWindow();
 //            String path = "/com/nextinnomind/biblequizapp/views/levels-view.fxml";
-//            String viewMode = viewModeSelector.getViewMode();
+//            String viewMode = viewModeSelectorManager.getViewMode();
 //
 //            if ("mobile".equalsIgnoreCase(viewMode)) {
 //                MobileViewLoader.load(stage, path);
@@ -730,11 +730,11 @@ package com.nextinnomind.biblequizapp.controller;
 
 import com.nextinnomind.biblequizapp.model.LevelScore;
 import com.nextinnomind.biblequizapp.model.Question;
-import com.nextinnomind.biblequizapp.utils.DesktopViewLoader;
-import com.nextinnomind.biblequizapp.utils.JsonDataLoader;
-import com.nextinnomind.biblequizapp.utils.MobileViewLoader;
+import com.nextinnomind.biblequizapp.AppLoader.DesktopViewLoader;
+import com.nextinnomind.biblequizapp.AppLoader.JsonDataLoader;
+import com.nextinnomind.biblequizapp.AppLoader.MobileViewLoader;
 import com.nextinnomind.biblequizapp.utils.SoundPlayer;
-import com.nextinnomind.biblequizapp.utils.ViewModeSelector;
+import com.nextinnomind.biblequizapp.AppManager.ViewModeSelectorManager;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
@@ -786,7 +786,7 @@ public class QuizViewController {
     // Static variable to pass score data to ScoreViewController even if not saved
     public static LevelScore CURRENT_QUIZ_SCORE;
 
-    private final ViewModeSelector viewModeSelector = new ViewModeSelector();
+    private final ViewModeSelectorManager viewModeSelectorManager = new ViewModeSelectorManager();
 
     public QuizViewController() {}
 
@@ -1033,7 +1033,7 @@ public class QuizViewController {
         try {
             Stage stage = (Stage) backButton.getScene().getWindow();
             String path = "/com/nextinnomind/biblequizapp/views/score-view.fxml";
-            String viewMode = viewModeSelector.getViewMode();
+            String viewMode = viewModeSelectorManager.getViewMode();
 
             if ("mobile".equalsIgnoreCase(viewMode)) {
                 MobileViewLoader.load(stage, path);
@@ -1053,7 +1053,7 @@ public class QuizViewController {
         try {
             Stage stage = (Stage) backButton.getScene().getWindow();
             String path = "/com/nextinnomind/biblequizapp/views/levels-view.fxml";
-            String viewMode = viewModeSelector.getViewMode();
+            String viewMode = viewModeSelectorManager.getViewMode();
 
             if ("mobile".equalsIgnoreCase(viewMode)) {
                 MobileViewLoader.load(stage, path);

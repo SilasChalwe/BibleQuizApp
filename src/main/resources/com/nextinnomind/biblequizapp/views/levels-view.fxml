@@ -3,7 +3,6 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import java.net.URL?>
 
 <StackPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nextinnomind.biblequizapp.controller.LevelsViewController" styleClass="levels-root" stylesheets="@../static/style.css">
 
@@ -44,8 +43,6 @@
 
     </HBox>
 
-<!--    <stylesheets>-->
-<!--        <URL value="@../static/style.css"/>-->
-<!--    </stylesheets>-->
+
 </StackPane>
 

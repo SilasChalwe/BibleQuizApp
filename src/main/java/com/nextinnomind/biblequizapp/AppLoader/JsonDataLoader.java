@@ -1,4 +1,4 @@
-package com.nextinnomind.biblequizapp.utils;
+package com.nextinnomind.biblequizapp.AppLoader;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

@@ -1,9 +1,6 @@
 package com.nextinnomind.biblequizapp.widget;
 
-import com.nextinnomind.biblequizapp.controller.LevelsViewController;
-import com.nextinnomind.biblequizapp.utils.DesktopViewLoader;
-import com.nextinnomind.biblequizapp.utils.JsonDataLoader;
-import com.nextinnomind.biblequizapp.utils.MobileViewLoader;
+import com.nextinnomind.biblequizapp.AppLoader.JsonDataLoader;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Cursor;
@@ -15,12 +12,9 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
-import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
-
-import java.io.IOException;
 
 public class Card {
 

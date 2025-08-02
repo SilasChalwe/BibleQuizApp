@@ -18,7 +18,7 @@
 
     <!-- Background Image -->
     <ImageView fitWidth="800" fitHeight="600" preserveRatio="true" opacity="0.25" mouseTransparent="true">
-        <Image url="@../assets/the-cross.jpeg"/>
+        <Image url="@../assets/img/the-cross.jpeg"/>
     </ImageView>
 
     <!-- Gradient Overlay -->
@@ -37,7 +37,7 @@
                 <clip>
                     <Circle centerX="45" centerY="45" radius="45"/>
                 </clip>
-                <Image url="@../assets/praying-hand-logo.png"/>
+                <Image url="@../assets/img/praying-hand-logo.png"/>
             </ImageView>
         </StackPane>
 

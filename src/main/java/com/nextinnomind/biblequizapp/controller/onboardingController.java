@@ -1,8 +1,8 @@
 package com.nextinnomind.biblequizapp.controller;
 
-import com.nextinnomind.biblequizapp.utils.DesktopViewLoader;
-import com.nextinnomind.biblequizapp.utils.MobileViewLoader;
-import com.nextinnomind.biblequizapp.utils.ViewModeSelector;
+import com.nextinnomind.biblequizapp.AppLoader.DesktopViewLoader;
+import com.nextinnomind.biblequizapp.AppLoader.MobileViewLoader;
+import com.nextinnomind.biblequizapp.AppManager.ViewModeSelectorManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
@@ -20,13 +20,13 @@ public class onboardingController {
     @FXML
     private Button playButton;
 
-    private final ViewModeSelector viewModeSelector = new ViewModeSelector();
+    private final ViewModeSelectorManager viewModeSelectorManager = new ViewModeSelectorManager();
 
     @FXML
     private void handlePlayButton(ActionEvent event) {
         try {
             Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            String viewMode = viewModeSelector.getViewMode();
+            String viewMode = viewModeSelectorManager.getViewMode();
 
             logger.info("Play button clicked. Detected view mode: {}", viewMode);
 
