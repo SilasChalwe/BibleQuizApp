@@ -22,7 +22,7 @@ public class DesktopDisplay {
 
         Scene scene = new Scene(content, INIT_WIDTH, INIT_HEIGHT);
         scene.getStylesheets().add(
-                DesktopDisplay.class.getResource("/com/nextinnomind/biblequizapp/static/style.css").toExternalForm()
+                DesktopDisplay.class.getResource("/com/nextinnomind/biblequizapp/assets/css/style.css").toExternalForm()
         );
 
         // Make window responsive and resizable
