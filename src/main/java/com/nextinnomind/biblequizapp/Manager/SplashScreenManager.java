@@ -1,7 +1,7 @@
 package com.nextinnomind.biblequizapp.Manager;
 
+import com.nextinnomind.biblequizapp.Loader.DataLoader;
 import com.nextinnomind.biblequizapp.biblequizapp;
-import com.nextinnomind.biblequizapp.Loader.JsonDataLoader;
 import com.nextinnomind.biblequizapp.utils.JsonUtils;
 import com.nextinnomind.biblequizapp.utils.SoundPlayer;
 import javafx.application.Platform;
@@ -35,7 +35,7 @@ public class SplashScreenManager {
                 throw new RuntimeException(e);
             }
 
-            JsonDataLoader.getInstance();
+            DataLoader.getInstance();
 
             new Thread(() -> {
                 try {
@@ -43,7 +43,7 @@ public class SplashScreenManager {
                     JsonUtils.removeDuplicateQuestions();
 
                     logger.info("Loading data...");
-                    JsonDataLoader.getInstance();
+                    DataLoader.getInstance();
 
                     Thread.sleep(10_000);
 
