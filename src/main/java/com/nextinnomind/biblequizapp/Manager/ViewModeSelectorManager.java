@@ -92,7 +92,7 @@
 
 
 
-package com.nextinnomind.biblequizapp.AppManager;
+package com.nextinnomind.biblequizapp.Manager;
 
 import javafx.geometry.Rectangle2D;
 import javafx.scene.control.Alert;

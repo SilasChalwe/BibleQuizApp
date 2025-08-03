@@ -1,4 +1,4 @@
-package com.nextinnomind.biblequizapp.AppLoader;
+package com.nextinnomind.biblequizapp.Display;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -8,7 +8,7 @@ import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
-public class DesktopViewLoader {
+public class DesktopDisplay {
 
     private static final double INIT_WIDTH = 700;
     private static final double INIT_HEIGHT = 700;
@@ -17,12 +17,12 @@ public class DesktopViewLoader {
     private static final double MIN_HEIGHT = 650;
 
     public static void load(Stage stage, String fxmlPath) throws IOException {
-        FXMLLoader loader = new FXMLLoader(DesktopViewLoader.class.getResource(fxmlPath));
+        FXMLLoader loader = new FXMLLoader(DesktopDisplay.class.getResource(fxmlPath));
         Region content = loader.load();
 
         Scene scene = new Scene(content, INIT_WIDTH, INIT_HEIGHT);
         scene.getStylesheets().add(
-                DesktopViewLoader.class.getResource("/com/nextinnomind/biblequizapp/static/style.css").toExternalForm()
+                DesktopDisplay.class.getResource("/com/nextinnomind/biblequizapp/static/style.css").toExternalForm()
         );
 
         // Make window responsive and resizable

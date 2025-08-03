@@ -1,4 +1,4 @@
-package com.nextinnomind.biblequizapp.AppLoader;
+package com.nextinnomind.biblequizapp.Loader;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -14,12 +14,12 @@ import java.nio.file.Path;
 import java.time.Instant;
 import java.util.*;
 
-public class JsonDataLoader {
+public class DataLoader {
 
-    private static final Logger logger = LogManager.getLogger(JsonDataLoader.class);
+    private static final Logger logger = LogManager.getLogger(DataLoader.class);
 
 
-    private static JsonDataLoader instance;
+    private static DataLoader instance;
     private final List<Question> questions = new ArrayList<>();
     private List<Question> selectedQuestions = new ArrayList<>();
 
@@ -32,16 +32,16 @@ public class JsonDataLoader {
     // Keep track of questions selected per level to avoid repetition
     private final Map<Integer, Set<Question>> previouslySelectedQuestionsByLevel = new HashMap<>();
 
-    private JsonDataLoader() {
-        logger.info("Initializing JsonDataLoader...");
+    private DataLoader() {
+        logger.info("Initializing DataLoader...");
         loadQuestions();
         loadScores();
-        logger.info("JsonDataLoader initialized successfully.");
+        logger.info("DataLoader initialized successfully.");
     }
 
-    public static JsonDataLoader getInstance() {
+    public static DataLoader getInstance() {
         if (instance == null) {
-            instance = new JsonDataLoader();
+            instance = new DataLoader();
         }
         return instance;
     }

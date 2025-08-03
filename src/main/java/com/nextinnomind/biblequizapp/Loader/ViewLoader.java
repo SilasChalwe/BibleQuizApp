@@ -1,7 +1,7 @@
-package com.nextinnomind.biblequizapp.AppManager;
+package com.nextinnomind.biblequizapp.Manager;
 
-import com.nextinnomind.biblequizapp.AppLoader.DesktopViewLoader;
-import com.nextinnomind.biblequizapp.AppLoader.MobileViewLoader;
+import com.nextinnomind.biblequizapp.Display.DesktopDisplay;
+import com.nextinnomind.biblequizapp.Display.MobileDisplay;
 import javafx.application.Platform;
 import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
@@ -16,10 +16,10 @@ public class ViewLoader {
             String fxmlPath = "/com/nextinnomind/biblequizapp/views/onboarding-view.fxml";
 
             if ("mobile".equalsIgnoreCase(viewMode)) {
-                MobileViewLoader.load(stage, fxmlPath);
+                MobileDisplay.load(stage, fxmlPath);
                 logger.info("Mobile view loaded.");
             } else {
-                DesktopViewLoader.load(stage, fxmlPath);
+                DesktopDisplay.load(stage, fxmlPath);
                 logger.info("Desktop view loaded.");
             }
 

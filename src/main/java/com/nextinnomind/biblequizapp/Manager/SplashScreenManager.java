@@ -1,7 +1,7 @@
-package com.nextinnomind.biblequizapp.AppManager;
+package com.nextinnomind.biblequizapp.Manager;
 
 import com.nextinnomind.biblequizapp.biblequizapp;
-import com.nextinnomind.biblequizapp.AppLoader.JsonDataLoader;
+import com.nextinnomind.biblequizapp.Loader.JsonDataLoader;
 import com.nextinnomind.biblequizapp.utils.JsonUtils;
 import com.nextinnomind.biblequizapp.utils.SoundPlayer;
 import javafx.application.Platform;

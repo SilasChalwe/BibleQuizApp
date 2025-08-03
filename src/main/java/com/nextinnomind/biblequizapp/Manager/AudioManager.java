@@ -1,4 +1,4 @@
-package com.nextinnomind.biblequizapp.AppManager;
+package com.nextinnomind.biblequizapp.Manager;
 
 import com.nextinnomind.biblequizapp.utils.SoundPlayer;
 import org.apache.logging.log4j.LogManager;

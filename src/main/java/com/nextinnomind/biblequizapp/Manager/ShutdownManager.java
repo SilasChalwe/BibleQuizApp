@@ -1,6 +1,6 @@
-package com.nextinnomind.biblequizapp.AppManager;
+package com.nextinnomind.biblequizapp.Manager;
 
-import com.nextinnomind.biblequizapp.AppLoader.JsonDataLoader;
+import com.nextinnomind.biblequizapp.Loader.JsonDataLoader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

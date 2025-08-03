@@ -1,4 +1,4 @@
-package com.nextinnomind.biblequizapp.AppLoader;
+package com.nextinnomind.biblequizapp.Display;
 
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -15,9 +15,9 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 
-public class MobileViewLoader {
+public class MobileDisplay {
 
-    private static final Logger logger = LogManager.getLogger(MobileViewLoader.class);
+    private static final Logger logger = LogManager.getLogger(MobileDisplay.class);
 
     private static final double WIDTH = 360;
     private static final double HEIGHT = 640;
@@ -33,7 +33,7 @@ public class MobileViewLoader {
      * @throws IOException if loading FXML fails
      */
     public static void load(Stage stage, String fxmlPath) throws IOException {
-        FXMLLoader loader = new FXMLLoader(MobileViewLoader.class.getResource(fxmlPath));
+        FXMLLoader loader = new FXMLLoader(MobileDisplay.class.getResource(fxmlPath));
         Region content = loader.load();
 
         StackPane root = new StackPane(content);
@@ -84,7 +84,7 @@ public class MobileViewLoader {
         };
         root.addEventHandler(TouchEvent.ANY, touchEventHandler);
 
-        logger.info("MobileViewLoader loading '{}'. Touch support detected? {}", fxmlPath, touchSupported[0]);
+        logger.info("MobileDisplay loading '{}'. Touch support detected? {}", fxmlPath, touchSupported[0]);
 
         if (!stage.isShowing()) {
             stage.show();

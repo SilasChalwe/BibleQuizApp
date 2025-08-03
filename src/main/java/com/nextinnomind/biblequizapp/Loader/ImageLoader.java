@@ -1,4 +1,4 @@
-package com.nextinnomind.biblequizapp.AppLoader;
+package com.nextinnomind.biblequizapp.Loader;
 
 import javafx.scene.image.Image;
 
