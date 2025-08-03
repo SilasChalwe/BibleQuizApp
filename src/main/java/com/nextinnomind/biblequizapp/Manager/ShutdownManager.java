@@ -1,6 +1,6 @@
 package com.nextinnomind.biblequizapp.Manager;
 
-import com.nextinnomind.biblequizapp.Loader.JsonDataLoader;
+import com.nextinnomind.biblequizapp.Loader.DataLoader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -22,7 +22,7 @@ public class ShutdownManager {
 
     public static void cleanup(ViewModeSelectorManager selector) {
         try {
-            JsonDataLoader.getInstance();
+            DataLoader.getInstance();
             if (selector != null) {
                 selector.clearSavedChoice();
             }
