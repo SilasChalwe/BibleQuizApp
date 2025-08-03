@@ -21,4 +21,10 @@ public class DialogStyle {
             "-fx-padding: 6px 12px;" +
             "-fx-background-radius: 5px;" +
             "-fx-border-radius: 5px;";
+    public static  final   String PURPLE_STYLE = """
+        -fx-background-color: #6a0dad;
+        -fx-text-fill: white;
+        -fx-font-size: 14px;
+        -fx-padding: 15;
+    """;
 }

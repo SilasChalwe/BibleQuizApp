@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.image.ImageView?>
-<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.nextinnomind.biblequizapp.controller.ScoreViewController" styleClass="root-pane" stylesheets="@../static/style.css">
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.nextinnomind.biblequizapp.controller.ScoreViewController" prefWidth="360" prefHeight="640" styleClass="root-pane" stylesheets="@../assets/css/style.css">
     <BorderPane>
         <!-- Top Header -->
         <top>
@@ -19,9 +19,10 @@
                 <VBox  spacing="20" alignment="CENTER" maxWidth="500" style="-fx-padding: 10;">
                     <!-- Trophy -->
                     <StackPane prefWidth="80" prefHeight="80">
-                        <Circle fx:id="trophyBackground" radius="40" />
-                        <ImageView  fx:id="trophyImage" fitWidth="50" fitHeight="50" preserveRatio="true" pickOnBounds="true" />
+                        <Circle fx:id="trophyBackground" radius="40" fill="white" strokeWidth="3" stroke="#CCCCCC" />
+                        <ImageView fx:id="trophyImage" fitWidth="80" fitHeight="80" preserveRatio="true" pickOnBounds="true" />
                     </StackPane>
+
 
 
                     <!-- Result Title -->
@@ -63,8 +64,8 @@
 
                         <!-- Level Info + Buttons -->
                         <HBox spacing="6" alignment="CENTER" >
-                            <Button fx:id="retryButton" text="🔄 Retry" visible="false" styleClass="retry-btn" />
-                            <Button fx:id="nextLevelButton" text="➤ Next" visible="false" styleClass="next-level-btn" />
+                            <Button fx:id="retryButton" alignment="CENTER" text=" Retry" visible="false" styleClass="retry-btn" />
+                            <Button fx:id="nextLevelButton" alignment="CENTER"  text="Next" visible="false" styleClass="next-level-btn" />
                         </HBox>
                     </VBox>
                 </VBox>

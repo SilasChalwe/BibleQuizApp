@@ -14,7 +14,7 @@ public class ShutdownManager {
             logger.info("JVM shutdown hook triggered.");
 
             if (selector != null) {
-                selector.clearSavedChoice();
+                ViewModeSelectorManager.clearSavedChoice();
             }
             AudioManager.stopAllAudio();
         }));
@@ -24,7 +24,7 @@ public class ShutdownManager {
         try {
             DataLoader.getInstance();
             if (selector != null) {
-                selector.clearSavedChoice();
+                ViewModeSelectorManager.clearSavedChoice();
             }
             logger.info("Cleanup completed successfully.");
         } catch (Exception e) {

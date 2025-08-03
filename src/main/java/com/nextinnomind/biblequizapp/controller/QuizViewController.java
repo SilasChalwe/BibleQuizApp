@@ -8,13 +8,17 @@ import com.nextinnomind.biblequizapp.Loader.DataLoader;
 import com.nextinnomind.biblequizapp.utils.SoundPlayer;
 import com.nextinnomind.biblequizapp.Manager.TimerManager;
 import com.nextinnomind.biblequizapp.Manager.ViewModeSelectorManager;
+import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -23,6 +27,8 @@ import java.time.Instant;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import static com.nextinnomind.biblequizapp.Style.LevelStyle.BACKGROUND_COLOR;
+import static com.nextinnomind.biblequizapp.Style.LevelStyle.PLAY_BUTTON_UNLOCKED;
 import static com.nextinnomind.biblequizapp.controller.LevelsViewController.CURRENT_LEVEL;
 
 public class QuizViewController {
@@ -33,6 +39,8 @@ public class QuizViewController {
     public Label levelName;
     public StackPane timerCirclePane;
     public Circle timerCircleBg;
+    public FlowPane optionsFlowPane;
+    //    public HBox optionDBox;
     @FXML private Button backButton;
     @FXML private Label questionLabel;
     @FXML private Label questionNumberLabel;
@@ -49,9 +57,11 @@ public class QuizViewController {
     public static LevelScore CURRENT_QUIZ_SCORE;
     private final ViewModeSelectorManager viewModeSelectorManager = new ViewModeSelectorManager();
     private final TimerManager timerManager = new TimerManager();
-
-    @FXML
-    public void initialize() {
+    @FXML private HBox optionABox;
+    @FXML private HBox optionBBox;
+    @FXML private HBox optionCBox;
+    @FXML private HBox optionDBox;
+    @FXML public void initialize() {
         backButton.setOnAction(_ -> handleBack());
         levelName.setText(String.valueOf(CURRENT_LEVEL));
 
@@ -62,7 +72,6 @@ public class QuizViewController {
         levelScore.setLevel(CURRENT_LEVEL);
         levelScore.setTotalQuestions(selectedQuestions.size());
         levelScore.setTimestamp(String.valueOf(System.currentTimeMillis()));
-
         choiceA.setOnAction(_ -> handleChoice("A"));
         choiceB.setOnAction(_ -> handleChoice("B"));
         choiceC.setOnAction(_ -> handleChoice("C"));
@@ -84,6 +93,7 @@ public class QuizViewController {
 
         Question q = selectedQuestions.get(index);
         questionLabel.setText(q.getQuestion());
+        choiceB.setStyle(PLAY_BUTTON_UNLOCKED);
 
         Map<String, String> choices = q.getChoices();
         choiceA.setText("A. " + choices.get("option_a"));
@@ -91,11 +101,14 @@ public class QuizViewController {
         choiceC.setText("C. " + choices.get("option_c"));
         choiceD.setText("D. " + choices.get("option_d"));
 
+
         questionNumberLabel.setText("Question " + (index + 1) + " of " + selectedQuestions.size());
+
         resetChoiceButtons();
         timerManager.resetTimerVisuals(timerCircleFg, timerLabel);
         questionAnswered.set(false);
 
+        animateOptions();
         timerManager.startTimer(timerCircleFg, timerLabel, this::handleTimeUp);
     }
 
@@ -218,8 +231,25 @@ public class QuizViewController {
 
     private void loadView(String fxmlPath) {
         Stage window = (Stage) backButton.getScene().getWindow();
-        String viewMode = viewModeSelectorManager.getViewMode();
+        String viewMode = ViewModeSelectorManager.getViewMode();
         ViewLoader.loadMainView(window,viewMode,fxmlPath);
 
     }
+    public void animateOptions() {
+        List<HBox> optionBoxes = List.of(optionABox, optionBBox, optionCBox, optionDBox);
+
+        double delay = 0;
+        for (HBox box : optionBoxes) {
+            box.setOpacity(0);
+
+            FadeTransition ft = new FadeTransition(Duration.millis(300), box);
+            ft.setFromValue(0);
+            ft.setToValue(1);
+            ft.setDelay(Duration.millis(delay));
+            ft.play();
+
+            delay += 200;
+        }
+    }
+
 }

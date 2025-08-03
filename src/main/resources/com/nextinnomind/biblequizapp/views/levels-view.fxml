@@ -4,7 +4,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<StackPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nextinnomind.biblequizapp.controller.LevelsViewController" styleClass="levels-root" stylesheets="@../static/style.css">
+<StackPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.nextinnomind.biblequizapp.controller.LevelsViewController"
+           prefWidth="360.0" prefHeight="640.0"
+           styleClass="levels-root"
+           stylesheets="@../assets/css/style.css" >
 
     <!-- Main vertical layout -->
     <VBox alignment="TOP_CENTER" spacing="10" VBox.vgrow="ALWAYS">
@@ -22,7 +26,7 @@
         </VBox>
 
         <!-- SCROLLABLE LEVEL LIST -->
-        <ScrollPane fitToWidth="true" fitToHeight="true" VBox.vgrow="ALWAYS" styleClass="levels-scrollpane" pannable="true" hbarPolicy="NEVER">
+        <ScrollPane  fx:id="scrollPane" fitToWidth="true" fitToHeight="true" VBox.vgrow="ALWAYS" styleClass="levels-scrollpane" pannable="true" hbarPolicy="NEVER">
             <FlowPane fx:id="levelContainer" hgap="15" vgap="15" alignment="CENTER" prefWrapLength="600">
                 <padding>
                     <Insets top="20" right="20" bottom="20" left="20"/>
@@ -38,7 +42,7 @@
             <Insets top="10" right="10" bottom="10" left="10"/>
         </padding>
         <Button styleClass="nav-button"/>
-        <Button text="Settings" styleClass="nav-button"/>
+        <Button fx:id="exit" text="exit" styleClass="nav-button"/>
         <Button styleClass="nav-button"/>
 
     </HBox>

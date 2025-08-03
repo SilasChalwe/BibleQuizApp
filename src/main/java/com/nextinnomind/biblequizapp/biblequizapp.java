@@ -23,7 +23,7 @@ public class biblequizapp extends Application {
 
         // Setup view mode selection and load main view
         selector = new ViewModeSelectorManager();
-        String viewMode = selector.getViewMode();
+        String viewMode = ViewModeSelectorManager.getViewMode();
         ViewLoader.loadMainView(primaryStage, viewMode,"");
 
         // Setup shutdown hook
@@ -40,4 +40,6 @@ public class biblequizapp extends Application {
         logger.info("Launching JavaFX application...");
         launch(args);
     }
+
+
 }

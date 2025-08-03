@@ -1,10 +1,9 @@
 package com.nextinnomind.biblequizapp.Manager;
 
 import com.nextinnomind.biblequizapp.Style.DialogStyle;
+import javafx.application.Platform;
 import javafx.geometry.Rectangle2D;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonBar;
-import javafx.scene.control.ButtonType;
+import javafx.scene.control.*;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.StageStyle;
@@ -12,15 +11,18 @@ import javafx.stage.StageStyle;
 import java.util.Optional;
 import java.util.prefs.Preferences;
 
+import static com.nextinnomind.biblequizapp.Style.DialogStyle.BUTTON_STYLE;
+import static com.nextinnomind.biblequizapp.Style.DialogStyle.PURPLE_STYLE;
+
 public class ViewModeSelectorManager {
 
     private static final String PREF_KEY = "app_view_mode";
-    private static final String VIEW_MOBILE = "mobile";
-    private static final String VIEW_DESKTOP = "desktop";
+    public static final String VIEW_MOBILE = "mobile";
+    public static final String VIEW_DESKTOP = "desktop";
 
-    private final Preferences prefs = Preferences.userNodeForPackage(ViewModeSelectorManager.class);
+    private static final Preferences prefs = Preferences.userNodeForPackage(ViewModeSelectorManager.class);
 
-    public String getViewMode() {
+    public static String getViewMode() {
         String savedMode = prefs.get(PREF_KEY, null);
         if (savedMode != null) {
             return savedMode;
@@ -36,31 +38,42 @@ public class ViewModeSelectorManager {
         return chosenMode;
     }
 
-    private Optional<String> showChoiceDialog(String defaultMode) {
+
+    private static Optional<String> showChoiceDialog(String defaultMode) {
         Alert alert = new Alert(Alert.AlertType.NONE);
         alert.initModality(Modality.APPLICATION_MODAL);
-        alert.initStyle(StageStyle.UTILITY);
+        alert.initStyle(StageStyle.UNDECORATED); // remove window decoration
         alert.setTitle("Select View Mode");
         alert.setHeaderText("Choose your preferred view mode");
         alert.setContentText("Detected device size suggests " + defaultMode + " view.\n"
                 + "Please select which view mode you want to use:");
 
+        // Apply purple background to dialog
+        DialogPane pane = alert.getDialogPane();
+        pane.setStyle("-fx-background-color: #6A0DAD; -fx-border-radius: 10; -fx-background-radius: 10;");
+        pane.lookup(".content.label").setStyle("-fx-text-fill: white;");
+        pane.lookup(".header-panel").setStyle("-fx-text-fill: white;");
 
-        alert.getDialogPane().setStyle(DialogStyle.ALERT_PANE_STYLE);
-
-        ButtonType mobileButton = new ButtonType("Mobile View", ButtonBar.ButtonData.OK_DONE);
-        ButtonType desktopButton = new ButtonType("Desktop View", ButtonBar.ButtonData.CANCEL_CLOSE);
+        ButtonType mobileButton = new ButtonType("Mobile", ButtonBar.ButtonData.OK_DONE);
+        ButtonType desktopButton = new ButtonType("Desktop", ButtonBar.ButtonData.CANCEL_CLOSE);
         alert.getButtonTypes().setAll(mobileButton, desktopButton);
 
-        try {
-            var mobileBtn = alert.getDialogPane().lookupButton(mobileButton);
-            var desktopBtn = alert.getDialogPane().lookupButton(desktopButton);
+        Platform.runLater(() -> {
+            var mobileBtn = (Button) alert.getDialogPane().lookupButton(mobileButton);
+            var desktopBtn = (Button) alert.getDialogPane().lookupButton(desktopButton);
 
-            if (mobileBtn != null) mobileBtn.setStyle(DialogStyle.BUTTON_STYLE);
-            if (desktopBtn != null) desktopBtn.setStyle(DialogStyle.BUTTON_STYLE);
-        } catch (Exception e) {
-            System.out.println("Warning: Could not style dialog buttons: " + e.getMessage());
-        }
+            if (mobileBtn != null) {
+                mobileBtn.setStyle("-fx-background-color: white; -fx-text-fill: #6A0DAD; -fx-font-weight: bold; -fx-background-radius: 5;");
+                mobileBtn.setOnMouseEntered(e -> mobileBtn.setStyle("-fx-background-color: #B266FF; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;"));
+                mobileBtn.setOnMouseExited(e -> mobileBtn.setStyle("-fx-background-color: white; -fx-text-fill: #6A0DAD; -fx-font-weight: bold; -fx-background-radius: 5;"));
+            }
+
+            if (desktopBtn != null) {
+                desktopBtn.setStyle("-fx-background-color: white; -fx-text-fill: #6A0DAD; -fx-font-weight: bold; -fx-background-radius: 5;");
+                desktopBtn.setOnMouseEntered(e -> desktopBtn.setStyle("-fx-background-color: #B266FF; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;"));
+                desktopBtn.setOnMouseExited(e -> desktopBtn.setStyle("-fx-background-color: white; -fx-text-fill: #6A0DAD; -fx-font-weight: bold; -fx-background-radius: 5;"));
+            }
+        });
 
         Optional<ButtonType> result = alert.showAndWait();
         if (result.isPresent()) {
@@ -71,7 +84,7 @@ public class ViewModeSelectorManager {
         return Optional.empty();
     }
 
-    public void clearSavedChoice() {
+    public static void clearSavedChoice() {
         prefs.remove(PREF_KEY);
     }
 }

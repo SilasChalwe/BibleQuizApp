@@ -8,13 +8,8 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.effect.*?>
 
-<StackPane xmlns="http://javafx.com/javafx/17"
-           xmlns:fx="http://javafx.com/fxml/1"
-           fx:controller="com.nextinnomind.biblequizapp.controller.onboardingController"
-           styleClass="root-pane"
-           stylesheets="@../static/style.css">
+<StackPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nextinnomind.biblequizapp.controller.onboardingController" styleClass="root-pane" stylesheets="@../assets/css/style.css">
 
     <!-- Background Image -->
     <ImageView fitWidth="800" fitHeight="600" preserveRatio="true" opacity="0.25" mouseTransparent="true">
@@ -68,7 +63,7 @@
         <Rectangle width="800" height="60" styleClass="separator-rectangle"/>
 
         <!-- Play Button -->
-        <Button text="Play Now" fx:id="playButton" onAction="#handlePlayButton" styleClass="menu-button">
+        <Button text="Play Now"  onAction="#handlePlayButton" styleClass="menu-button">
             <font>
                 <Font name="Segoe UI Bold" size="18"/>
             </font>
