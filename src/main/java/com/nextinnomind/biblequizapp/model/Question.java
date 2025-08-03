@@ -4,6 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Question {
 
     private String id;
@@ -30,39 +36,9 @@ public class Question {
         choices.put("option_c", optionC);
         choices.put("option_d", optionD);
 
-        String uniqueId = UUID.randomUUID().toString();  // Generate random unique ID
+        String uniqueId = UUID.randomUUID().toString();  // Generate random unique for each question                                  ,vvnv
 
         return new Question(uniqueId, question, choices, correctAnswer);
-    }
-
-    // Getters and setters
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getQuestion() {
-        return question;
-    }
-
-    public void setQuestion(String question) {
-        this.question = question;
-    }
-
-    public Map<String, String> getChoices() {
-        return choices;
-    }
-
-    public void setChoices(Map<String, String> choices) {
-        this.choices = choices;
-    }
-
-    public String getCorrectAnswer() {
-        return correctAnswer;
     }
 
 
