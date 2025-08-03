@@ -17,7 +17,7 @@ public class JsonUtils {
 
     private static final Logger logger = LogManager.getLogger(JsonUtils.class);
     private static final String RESOURCE_PATH = "/com/nextinnomind/biblequizapp/assets/data/questions.json";
-    private static final String TEMP_FILE_PATH = "questions_temp.json";
+    private static final String TEMP_FILE_PATH = "/com/nextinnomind/biblequizapp/assets/data/questions_temp.json";
 
     /**
      * Removes duplicate questions (case-insensitive) from internal JSON file in resources.
