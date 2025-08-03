@@ -1,9 +1,9 @@
 package com.nextinnomind.biblequizapp;
 
-import com.nextinnomind.biblequizapp.AppManager.ShutdownManager;
-import com.nextinnomind.biblequizapp.AppManager.SplashScreenManager;
-import com.nextinnomind.biblequizapp.AppManager.ViewLoader;
-import com.nextinnomind.biblequizapp.AppManager.ViewModeSelectorManager;
+import com.nextinnomind.biblequizapp.Manager.ShutdownManager;
+import com.nextinnomind.biblequizapp.Manager.SplashScreenManager;
+import com.nextinnomind.biblequizapp.Loader.ViewLoader;
+import com.nextinnomind.biblequizapp.Manager.ViewModeSelectorManager;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
@@ -24,7 +24,7 @@ public class biblequizapp extends Application {
         // Setup view mode selection and load main view
         selector = new ViewModeSelectorManager();
         String viewMode = selector.getViewMode();
-        ViewLoader.loadMainView(primaryStage, viewMode);
+        ViewLoader.loadMainView(primaryStage, viewMode,"");
 
         // Setup shutdown hook
         ShutdownManager.setupShutdownHook(selector);
