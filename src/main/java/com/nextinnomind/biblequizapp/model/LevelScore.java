@@ -1,7 +1,15 @@
 package com.nextinnomind.biblequizapp.model;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class LevelScore {
 
+    // Setters
+    // Getters
     private int level;
     private double score;
     private int correctAnswers;
@@ -16,48 +24,6 @@ public class LevelScore {
         this.score = score;
         this.correctAnswers = correctAnswers;
         this.totalQuestions = totalQuestions;
-        this.timestamp = timestamp;
-    }
-
-    // Getters
-    public int getLevel() {
-        return level;
-    }
-
-    public double getScore() {
-        return score;
-    }
-
-    public int getCorrectAnswers() {
-        return correctAnswers;
-    }
-
-    public int getTotalQuestions() {
-        return totalQuestions;
-    }
-
-    public String getTimestamp() {
-        return timestamp;
-    }
-
-    // Setters
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
-    public void setScore(double score) {
-        this.score = score;
-    }
-
-    public void setCorrectAnswers(int correctAnswers) {
-        this.correctAnswers = correctAnswers;
-    }
-
-    public void setTotalQuestions(int totalQuestions) {
-        this.totalQuestions = totalQuestions;
-    }
-
-    public void setTimestamp(String timestamp) {
         this.timestamp = timestamp;
     }
 
