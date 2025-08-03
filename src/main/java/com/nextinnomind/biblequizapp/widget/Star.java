@@ -3,7 +3,7 @@ package com.nextinnomind.biblequizapp.widget;
 import javafx.scene.shape.Polygon;
 import org.jetbrains.annotations.NotNull;
 
-public class CustomUI {
+public class Star {
 
     @NotNull
     public static Polygon createStar() {
