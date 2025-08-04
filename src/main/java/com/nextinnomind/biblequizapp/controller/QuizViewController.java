@@ -9,6 +9,8 @@ import com.nextinnomind.biblequizapp.utils.SoundPlayer;
 import com.nextinnomind.biblequizapp.Manager.TimerManager;
 import com.nextinnomind.biblequizapp.Manager.ViewModeSelectorManager;
 import javafx.animation.FadeTransition;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -163,17 +165,33 @@ public class QuizViewController {
         SoundPlayer.play("/com/nextinnomind/biblequizapp/assets/sounds/correct.wav", 1);
     }
 
+
     private void handleIncorrectAnswer(Button selectedBtn, Button correctBtn) {
         score += 0.1;
+
         if (selectedBtn != null) {
             selectedBtn.setStyle(QuizViewStyles.INCORRECT_ANSWER_STYLE);
+            blinkButton(selectedBtn); //  Make it blink
         }
+
         if (correctBtn != null) {
             correctBtn.setStyle(QuizViewStyles.CORRECT_ANSWER_STYLE);
         }
+
         logger.info("Question {} answered incorrectly.", currentQuestionIndex + 1);
         SoundPlayer.play("/com/nextinnomind/biblequizapp/assets/sounds/level-unlocked.wav", 1);
     }
+
+    private void blinkButton(Button button) {
+        Timeline timeline = new Timeline(
+                new KeyFrame(Duration.seconds(0.2), e -> button.setVisible(false)),
+                new KeyFrame(Duration.seconds(0.4), e -> button.setVisible(true))
+        );
+        timeline.setCycleCount(6); // Blink 3 times (2 keyframes per blink)
+        timeline.play();
+    }
+
+
 
     private void handleTimeUp() {
         logger.info("Time's up for level {}", CURRENT_LEVEL);
